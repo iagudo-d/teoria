@@ -1,0 +1,46 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 11</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 11 : Anidación de el condicional IF con colores.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar un color entre tres opciones al usuario y que aparezca una imagen distinta dependiendo del color.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					
+					<script type="text/javascript">
+						var color;
+						color = prompt("Escoge entre:\nAZUL, VERDE y ROJO.");
+						
+						if (color == 'rojo')
+						{document.write("<img src='imagenes/rojo.png'/>");}
+						else
+						{if (color == 'verde')
+						{document.write("<img src='imagenes/verde.png'/>");}
+						else
+						{if (color == 'azul')
+						{document.write("<img src='imagenes/azul.png'/>");}
+						else
+						{alert("Escoge otro color y si has escrito el color en MAYUSCULAS prueba a ponerlo en minusculas.");}}}
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

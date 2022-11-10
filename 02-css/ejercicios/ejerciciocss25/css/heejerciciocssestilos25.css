@@ -1,0 +1,9 @@
+﻿#contenedor{width:1000px;height:800px;border:solid;background-color:white;}
+#titulo{width:100%;height:10%;float:left;}
+#izda{width:50%;height:90%;float:left;border:solid;background-color:orange;}
+#dcha{width:50%;height:90%;float:left;border:solid;background-color:green;}
+
+li.peque{padding:50px;}
+.cat{list-style-type:none;float:left;}
+.gran{visibility:hidden;position:absolute;top:100px;left:450px;}
+a:hover .gran{visibility:visible;}

@@ -1,0 +1,10 @@
+﻿*{font-family:verdana;font-size:24px;}
+.dep{color:orange;}
+.pol{color:blue}
+.eco{color:pink}
+h2.dep,h3.dep{text-align:center;text-decoration:underline;}
+h2.pol,h3.pol{text-decoration:line-through;font-style:oblique;}
+h2.eco,h3.eco{font-weight:lighter;}
+p.dep:first-letter,p.eco:first-letter{color:green;font-size:50px;}
+a{text-decoration:none;}
+h2,h3,h4,h5,h6{word-spacing:25px;}

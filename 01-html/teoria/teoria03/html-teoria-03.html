@@ -1,0 +1,209 @@
+﻿<html>
+	<head>
+		<title>TEORÍA 03</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/teoria.css"/>
+		<link rel="stylesheet" type="text/css" href="css/html-teoria-03.css"/>
+	</head>
+	<body>
+		<div id="bajonavegador"></div>
+		<div id="navegador">
+			<div class="intermenu"></div>
+			<a href="../../../index.html"><div id="returnmain"><div class="centradotexto">INDEX</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-html.html#teoriahtml"><div id="returnhtmlteoria"><div class="centradotexto">HTML T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-html.html#ejercicioshtml"><div id="returnhtmlejercicios"><div class="centradotexto">HTML E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#teoriacss"><div id="returncssteoria"><div class="centradotexto">CSS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#ejercicioscss"><div id="returncssejercicios"><div class="centradotexto">CSS E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../03-javascript/indice-java.html#teoriajava"><div id="returnjavateoria"><div class="centradotexto">JAVAS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../03-javascript/indice-java.html#ejerciciosjava"><div id="returnjavaejercicios"><div class="centradotexto">JAVAS E</div></div></a>
+			<div class="intermenu"></div>
+		</div>
+		<div id="contenido">
+			<div width="800px" height="50px" id="titulounidad">
+				<h1 align="center">TEORÍA 03 : La etiqueta <span class="naranja"> &ltBODY&gt </span>.</h1>
+			</div>
+			<div width="800px" height="50px" id="explicacion">
+				<h2>EXPLICACIÓN:</h2>
+				<p>Todo el contenido visible de la página web irá contenido entre la etiqueta de apertura <span class="naranja"> &ltBODY&gt </span> y la etiqueta de cierre <span class="naranja"> &lt/BODY&gt </span>.</p>
+			</div>
+			<div width="800px" height="50px" id="ejemplo">
+				<h2>EJEMPLO:</h2>
+						<p>Aquí vemos un ejemplo del cuerpo de una web con un párrafo:</p>
+							
+<pre>
+<span class="naranja">&ltbody&gt </span>
+	&ltp&gt 
+		Todo el contenido visible de la página web irá contenido entre la
+		etiqueta de apertura &ltBODY&gt y la etiqueta de cierre &lt/BODY&gt.
+	&lt/p&gt
+<span class="naranja">&lt/body&gt </span>
+</pre>	
+			</div>
+			<div width="800px" height="50px"  id="propiedades">
+				<h2>PROPIEDADES:</h2>
+					<p>La etiqueta <span class="naranja"> &ltBODY&gt </span> puede tener varias propiedades para ajustar diferentes parámetros, son las siguientes: "BGCOLOR", "BACKGROUND", "TEXT", "LINK", "VLINK", "ALINK".</p>
+					<ul class="listaatributos">
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>BGCOLOR</strong></u>: Establece el color de fondo, sus valores pueden ser nombres de colores en inglés o códigos de color hexadecimal precedidos del símbolo #.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. BGCOLOR="red":</p>
+								<div class="ejemplo">
+								<div id="colorfondo"></div>
+								</div>
+								</li>
+								<li class="ejemploatributo">
+									<p>EJ. BGCOLOR="#ff0000":</p>
+								<div class="ejemplo">
+									<div id="colorfondo"></div>
+								</div>
+								</li>
+							</ul>
+							</div>
+						</li>
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>TEXT</strong></u>: Establece el color del texto de toda la página, sus valores pueden ser nombres de colores en inglés o códigos de color hexadecimal precedidos del símbolo #.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. TEXT="blue":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<p class="azul">Usando este valor el color de texto será Azul.</p>
+								</div></div>
+								</li>
+								<li class="ejemploatributo">
+									<p>EJ. TEXT="#0000ff":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<p class="azul">Usando este valor el color de texto será Azul.</p>
+								</div></div>
+								</li>
+							</ul>
+							</div>
+						</li>
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>LINK</strong></u>: Establece el color de los vínculos de toda la página, sus valores pueden ser nombres de colores en inglés o codigos de color hexadecimal precedidos del símbolo #.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. LINK="green":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<a href="#" class="verde">Usando este valor el color de los links será Verde.</a>
+								</div></div>
+								</li>
+								<li class="ejemploatributo">
+									<p>EJ. LINK="#00ff00":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<a href="#" class="verde">Usando este valor el color de los links será Verde.</a>
+								</div></div>
+								</li>
+							</ul>
+							</div>
+						</li>
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>VLINK</strong></u>: Establece el color de los vínculos visitados de toda la página, sus valores pueden ser nombres de colores en inglés o códigos de color hexadecimal precedidos del símbolo #.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. VLINK="orange":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<a href="#" class="naranja">Usando este valor el color de los links visitados será naranja.</a>
+								</div></div>
+								</li>
+								<li class="ejemploatributo">
+									<p>EJ. VLINK="#FFC000":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<a href="#" class="naranja">Usando este valor el color de los links visitados será naranja.</a>
+								</div></div>
+								</li>
+							</ul>
+							</div>
+						</li>
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>ALINK</strong></u>: Establece el color de los vínculos activos de toda la página, sus valores pueden ser nombres de colores en inglés o códigos de color hexadecimal precedidos del símbolo #.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. ALINK="yellow":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<a href="#" class="amarillo">Usando este valor el color de los links activos será amarillo.</a>
+								</div></div>
+								</li>
+								<li class="ejemploatributo">
+									<p>EJ. ALINK="#FFFF00":</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<a href="#" class="amarillo">Usando este valor el color de los links activos será amarillo.</a>
+								</div></div>
+								</li>
+							</ul>
+							</div>
+						</li>
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>BACKGROUND</strong></u>: Establece una imagen de fondo que se repetirá horizontal y verticalmente, su valor será la ruta donde se encuentra la imagen partiendo de la carpeta donde se encuentra almacenada la página.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. BACKGROUND="imagenes/foto.jpg" :</p>
+								<div class="ejemplo"><div class="ejemplocentrado" align="center">
+									<div class="imagenfondo"></div>
+								</div></div>
+								</li>
+							</ul>
+							</div>
+						</li>
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>TOPMARGIN</strong></u>: Establece el margen superior que guardará el cuerpo con la parte superior del explorador, el valor de esta propiedad se puede expresar en pixels o en %.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. TOPMARGIN="10%" : <i>Este valor indica que el cuerpo o contenido de la página comenzará a mostrarse un 10% más abajo de la superficie del explorador.</i></p>
+								</li>
+								<li class="ejemploatributo">
+									<p>EJ. TOPMARGIN="10px" : <i>Este valor indica que el cuerpo o contenido de la página comenzará a mostrarse a 10 pixeles del borde superior de la ventana del explorador.</i></p>
+								</li>
+							</ul>
+							</div>
+						</li>
+						<li class="atributo">
+							<div class="definicionatributo">
+							<p><u><strong>LEFTMARGIN</strong></u>: Establece el margen izquierdo que guardará el cuerpo con la parte izquierda del explorador, el valor de esta propiedad se puede expresar en pixels o en %.</p>
+							</div>
+							<div class="ejemplosatributos">
+							<ul class="listaejemplosatributos">
+								<li class="ejemploatributo">
+									<p>EJ. topmargin="10%" : <i>Este valor indica que el cuerpo o contenido de la página comenzará a mostrarse un 10% más a la derecha de la superficie del explorador.</i></p>
+								</li>
+								<li class="ejemploatributo">
+									<p>EJ. topmargin="10px" : <i>Este valor indica que el cuerpo o contenido de la página comenzará a mostrarse a 10 pixeles del borde derecha de la ventana del explorador.</i></p>
+								</li>
+							</ul>
+							</div>
+						</li>
+					</ul>
+			</div><!---->
+		</div>
+		<div id="pie">
+			<p align="center"><font><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+			<p align="center"><a href="../../indice.html">INDICE</a></p>
+		</div>
+	</body>
+</html>

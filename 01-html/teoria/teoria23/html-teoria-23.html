@@ -1,0 +1,108 @@
+﻿<html>
+	<head>
+		<title>TEORÍA 23</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/teoria.css"/>
+		<link rel="stylesheet" type="text/css" href="css/html-teoria-23.css"/>
+	</head>
+	<body>
+		<div id="bajonavegador"></div>
+		<div id="navegador">
+				<div class="intermenu"></div>
+				<a href="../../../index.html"><div id="returnmain"><div class="centradotexto">INDEX</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../indice-html.html#teoriahtml"><div id="returnhtmlteoria"><div class="centradotexto">HTML T</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../indice-html.html#ejercicioshtml"><div id="returnhtmlejercicios"><div class="centradotexto">HTML E</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../02-css/indice-css.html#teoriacss"><div id="returncssteoria"><div class="centradotexto">CSS T</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../02-css/indice-css.html#ejercicioscss"><div id="returncssejercicios"><div class="centradotexto">CSS E</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../03-javascript/indice-js.html#teoriajava"><div id="returnjavateoria"><div class="centradotexto">JAVAS T</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../03-javascript/indice-js.html#ejerciciosjava"><div id="returnjavaejercicios"><div class="centradotexto">JAVAS E</div></div></a>
+				<div class="intermenu"></div>
+		</div>
+		<div id="contenido">
+			<div width="800px" height="50px" id="titulounidad">
+				<h1 align="center">TEORÍA 23 : Etiquetas &ltUL&gt y &ltLI&gt, para crear listas no ordenadas.</h1>
+			</div>
+			<div width="800px" height="50px" id="explicacion">
+				<h2>EXPLICACIÓN:</h2>
+				<p>Las etiquetas etiquetas &ltUL&gt y &ltLI&gt son etiquetas en bloque.</p>
+				<p>Su cometido es estructural.</p>
+				<p>Dichas etiquetas las usaremos para crear listas no ordenadas y darlas formato.</p>
+				<p>Diremos que el objeto u objetos que esten entre las etiquetas &ltLI&gt y &lt/LI&gt serán los elementos de la lista e irán englobados entre las etiquetas &ltUL&gt y &lt/UL&gt. </p>
+			</div>
+			<div width="800px" height="50px" id="ejemplo">
+				<h2>EJEMPLO:</h2>
+				<p>Ejemplo de &ltUL&gt:</p>
+				<p>Sintaxis básica:</p>
+<pre>
+&ltUL&gt
+	&ltLI&gt Elemento 1 &lt/LI&gt
+	&ltLI&gt Elemento 2 &lt/LI&gt
+	&ltLI&gt Elemento 3 &lt/LI&gt
+&lt/UL&gt
+</pre>
+				<p>Esto es lo que hace el código anterior, en naranja los elementos de la lista.</p>
+				<div class="ejemplo"><div class="ejemplocentrado">
+					<ul class="naranja">
+						<li>Elemento 1</li>
+						<li>Elemento 2</li>
+						<li>Elemento 3</li>
+					</ul>
+				</div></div>
+			</div>
+			<div width="800px" height="50px"  id="propiedades">
+				<h2>PROPIEDADES:</h2>
+					<p>Las etiquetas &ltUL&gt y &ltLI&gt solo admiten la propiedad "TYPE" con la que cambiaremos el símbolo que marcará el elemento, en este caso las propiedades START y VALUE no serán aplicables debido a que la lista no tiene orden.</p>
+						<ul class="listaatributos">
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>TYPE</strong></u>: Con esta propiedad podremos definir la representación grafica de los símbolos de las listas, hay 3 valores diferentes posibles, "disc" para utilizar un disco negro para señalizar los elementos, "circle" que lo convertirá en un circulo sin relleno y "square" para que su símbolo sea un cuadrado.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. Ejemplo de lista no ordenada con valor disc.</p>
+									<div class="ejemplo"><div class="ejemplocentrado">
+										<ol class="naranja" type="disc">
+											<li>Elemento 1</li>
+											<li>Elemento 2</li>
+											<li>Elemento 3</li>
+										</ol>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Ejemplo de lista ordenada alfabética mayúscula.</p>
+									<div class="ejemplo"><div class="ejemplocentrado">
+										<ol class="naranja" type="circle">
+											<li>Elemento 1</li>
+											<li>Elemento 2</li>
+											<li>Elemento 3</li>
+										</ol>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Ejemplo de lista ordenada alfabética minúscula.</p>
+									<div class="ejemplo"><div class="ejemplocentrado">
+										<ol class="naranja" type="square">
+											<li>Elemento 1</li>
+											<li>Elemento 2</li>
+											<li>Elemento 3</li>
+										</ol>
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+						</ul>
+			</div><!---->
+			<div id="pie">
+			<p align="center"><font><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+			<p align="center"><a href="../../indice.html">INDICE</a></p>
+			</div>
+		</div>
+	</body>
+</html>

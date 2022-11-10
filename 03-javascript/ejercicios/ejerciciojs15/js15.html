@@ -1,0 +1,48 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 15</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 15 : Uso de varias condiciones.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar un mes y decir a que trimestre pertenece.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var mes;
+						mes = prompt("¿Dime un mes?");
+
+												
+						if (mes == 'enero' || mes == 'febrero' || mes == 'marzo')
+						{alert("Pertenece al primer trimestre");}
+						else
+						{if (mes == 'abril' || mes == 'mayo' || mes == 'junio')
+						{alert("Pertenece al segundo trimestre");}
+						else
+						{if (mes == 'julio' || mes == 'agosto' || mes == 'septiembre')
+						{alert("Pertenece al tercer trimestre");}
+						else
+						{alert("Pertenece al cuarto trimestre");}}}
+						
+						/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

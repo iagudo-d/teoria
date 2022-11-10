@@ -1,0 +1,46 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 26</title>
+
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 26 :  Uso del bucle WHILE para calculos acumulativos.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Pedir al usuario 5 números y sumarlos.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var intentos;
+						intentos = 1
+						var suma;
+						suma = 0
+						var numero;
+						
+						while (intentos<=5)
+						 {numero = parseFloat(prompt("Dime un número"));
+						  suma = suma + numero;
+						  intentos = intentos + 1;}
+						
+						{alert("La suma de los números que has introducido es" + suma);}
+							/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 42</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 42 : Uso del objeto MATH.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Pedir dos números a un usuario.
+						Cual es el menor.
+						Cual es el mayor.
+						Cual es el valor absoluto de los numeros.
+						Cual es el resultado de elevar el segundo al primero.
+						Cual es la raiz cuadrada del mayor.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var numero1;
+						var numero2;
+						var mayor;
+						var menor;
+						var absoluto1;
+						var absoluto2;
+						var exponente21;
+						var raizmayor;
+						
+						numero1 = parseFloat(prompt("Dime un número"));
+						while (isNaN(numero1));
+						{numero1 = parseFloat(prompt("Lo que me has facilitado no es un numero, por favor dime un número."));}
+						
+						numero2 = parseFloat(prompt("Dime otro número"));
+						while (isNaN(numero2));
+						{numero2 = parseFloat(prompt("Lo que me has facilitado no es un numero, por favor dime un número."));}
+						
+						menor = Math.min(numero1,numero2);
+						mayor = Math.max(numero1,numero2);
+						absoluto1 = Math.abs(numero1);
+						absoluto2 = Math.abs(numero2);
+						exponente21 = Math.pow(numero2,numero1);
+						raizmayor = Math.sqrt(mayor);
+						
+						alert("El número mayor es: "+mayor+"\nEl número menor es: "+menor+"\nEl valor absoluto del primero es: "+absoluto1+"\nEl valor absoluto del segundo es: "+absoluto2+"\nEl resultado de elevar el segundo al primero es: "+exponente21+"\4);
+						alert(");
+						alert(");
+						alert(");
+						alert(");
+						alert("La raiz cuadrada del mayor es: "+raizmayor)
+						
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

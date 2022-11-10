@@ -1,0 +1,43 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 40</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 40 :  Uso de la función substr para extraer texto.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Solicitar el codigo postal y la edad a un trabajador y con .substr, separarlos y mostrarlos.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var edad;
+						var cp;
+						var datousuario;
+						
+						datousuario = prompt("Dime tu edad y tu codigo postal separado por una coma y en ese orden.");
+						edad = datousuario.substr(0,2);
+						cp = datousuario.substr(3,5);
+						
+						alert("Tu edad es de :\n"+edad+" años.\nTu Código Postal es:\n"+cp)
+						
+							/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

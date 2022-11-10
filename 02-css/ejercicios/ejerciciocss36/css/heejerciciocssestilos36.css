@@ -1,0 +1,30 @@
+﻿.forma1{box-shadow:20px 20px 20px #00A00D,40px 40px 40px 63AB69,60px 60px 60px yellow;}
+.forma2{box-shadow:20px 20px 20px #00A00D,40px 40px 40px 63AB69,60px 60px 60px yellow;}
+.forma3{box-shadow:inset 0px 0px 40px #FFBC00,inset 0px 0px 60px FFD356,inset 0px 0px 200px FFEBB0;}
+#forma1{
+width:200px;
+height:200px;
+background-color:green;
+border-radius:1px 400px 1px 400px;
+position:absolute;
+top:300px;
+left:80px;
+}
+#forma2{
+width:200px;
+height:200px;
+background-color:green;
+border-radius:400px 1px 400px 1px;
+position:absolute;
+top:340px;
+left:300px;
+}
+#forma3{
+width:400px;
+height:400px;
+background-color:orange;
+border-radius:500px 500px 500px 500px;
+position:absolute;
+top:560px;
+left:100px;
+}

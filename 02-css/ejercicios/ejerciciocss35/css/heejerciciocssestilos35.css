@@ -1,0 +1,15 @@
+﻿.boton{width:200px;height:50px;background-color:red;border-radius:10px;margin:10px auto;display:table;vertical-align:middle;color:black;text-align:center;}
+a{text-decoration:none;}
+a#boton01{cursor:default;}
+a#boton02{cursor:crosshair;}
+a#boton03{cursor:move;}
+a#boton04{cursor:nw-resize;}
+a#boton05{cursor:ne-resize;}
+a#boton06{cursor:n-resize;}
+a#boton07{cursor:e-resize;}
+a#boton08{cursor:help;}
+a#boton09{cursor:text;}
+a#boton10{cursor:wait;}
+a#boton11{cursor:progress;}
+a#boton12{cursor:pointer;}
+a:hover .boton{width:200px;height:50px;background-color:black;border-radius:10px;margin:10px auto;display:table;vertical-align:middle;color:red;text-align:center;}

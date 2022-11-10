@@ -1,0 +1,101 @@
+﻿<html>
+	<head>
+		<title>TEORÍA CSS COMPLETA</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/teoria.css"/>
+		<link rel="stylesheet" type="text/css" href="css/css-teoria-00.css"/>
+	</head>
+	<body>
+		<div id="bajonavegador"></div>
+			<div id="navegador">
+			<div class="intermenu"></div>
+			<a href="../../../index.html"><div id="returnmain"><div class="centradotexto">INDEX</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../01-html/indice-html.html#teoriahtml"><div id="returnhtmlteoria"><div class="centradotexto">HTML T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../01-html/indice-html.html#ejercicioshtml"><div id="returnhtmlejercicios"><div class="centradotexto">HTML E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#teoriacss"><div id="returncssteoria"><div class="centradotexto">CSS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#ejercicioscss"><div id="returncssejercicios"><div class="centradotexto">CSS E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-js.html#teoriajava"><div id="returnjavateoria"><div class="centradotexto">JAVAS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-js.html#ejerciciosjava"><div id="returnjavaejercicios"><div class="centradotexto">JAVAS E</div></div></a>
+			<div class="intermenu"></div>
+		</div>
+		<div id="contenido">
+		<table border="0" align="center" cellspacing="0" cellpadding="20">
+			<tr>
+				<td width="800px" height="50px">
+					<h1 align="center">TEORÍA 01 : Introducción al CSS, conceptos básicos.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<p>El lenguaje <a href="#ancla1">CSS<sup>(1)</sup></a> es un lenguaje de mediante el cual podremos dar estilo y organizar visualmente los documentos HTML.</p>
+						<p>Al igual que en HTML deciamos que es un lenguaje de etiquetas, CSS es un lenguaje de reglas.</p>
+						<p>Las reglas CSS las forman selectores, propiedades y valores:</p>
+<pre>
+
+	   h1    {   color   : black ; }
+	           ---------   -----
+	         { propiedad : valor ; }
+	--------  ---------------------
+	selector       declaración
+	--------------------------------
+	           Regla CSS
+
+</pre>					
+							<ul>
+								<li><p>El selector : Indica el o los elementos a los que será aplicada la declaración.</p></li>
+								<li><p>La declaración : Hace referencia al cambio a aplicar a los selectores, está formada por reglas de estilo separadas por el simbolo punto y coma (;), estas reglas de estilo estan formadas por propiedades y valores.</p>
+									<ul>
+										<li><p>Las propiedades : Son indicaciones preestablecidas que indican el tipo de cambio que se aplicará, pueden servir para cambiar la duente de un elemento (font-family), el color de un texto (color), el color de fondo (background-color), etc.</p></li>
+										<li><p>Los valores : Son los que definiran que estilo tiene el elemento, color rojo (red), fuente Arial (arial), etc.</p></li>
+									</ul>
+								</li>
+							</ul>
+						<p>Las reglas CSS se pueden incrustar en un documento HTML o indicar un vinculo a un documento .css que contenga dichas reglas.</p>
+							<ul>
+								<li><p>Hay dos maneras de incrustar reglas CSS en un documento HTML, usando el atributo style="" donde entre las comillas insertaremos las declaraciones y también podemos insertarlo en la cabecera entre las etiquetas &ltSTYLE&gt &lt/STYLE&gt </p></li>
+								<li><p>Podemos vincular un archivo CSS donde iremos indicando las modificaciones de estilo mediante la inclusión en la cabecera de un vinculo a este archivo.</p></li>
+<pre>
+
+	&ltlink rel="stylesheet" type="text/css" href="RUTA DONDE SE ENCUENTRA EL ARCHIVO CSS"/&gt
+
+</pre>		
+							</ul>
+						<p></p>
+						<p></p>
+						<p></p>
+						<p></p>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Aquí vemos un ejemplo de la estructura de un elemento HTML:
+						</p>
+						<img src="imagenes/regla-css.png"/>
+				</td>
+			</tr>
+		</table>
+	<br/>
+	<hr/ width="800px">
+		<table border="1" align="center" cellspacing="0" cellpadding="20">
+			<a name="ancla1"/>
+			<tr>
+				<td width="800px" height="50px">
+					<a name="ancla1"/><sup>(1)</sup> CSS : Cascading Style Sheets (Tablas de estilo en cascada).<br/>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<div id="pie">
+		<p align="center"><font><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+		<p align="center"><a href="../../indice.html">INDICE</a></p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,126 @@
+﻿<html>
+	<head>
+		<title>TEORÍA 10</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/teoria.css"/>
+		<link rel="stylesheet" type="text/css" href="css/html-teoria-10.css"/>
+	</head>
+	<body>
+	<div id="bajonavegador"></div>
+		<div id="navegador">
+			<div class="intermenu"></div>
+			<a href="../../../index.html"><div id="returnmain"><div class="centradotexto">INDEX</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-html.html#teoriahtml"><div id="returnhtmlteoria"><div class="centradotexto">HTML T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-html.html#ejercicioshtml"><div id="returnhtmlejercicios"><div class="centradotexto">HTML E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#teoriacss"><div id="returncssteoria"><div class="centradotexto">CSS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#ejercicioscss"><div id="returncssejercicios"><div class="centradotexto">CSS E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../03-javascript/indice-js.html#teoriajava"><div id="returnjavateoria"><div class="centradotexto">JAVAS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../03-javascript/indice-js.html#ejerciciosjava"><div id="returnjavaejercicios"><div class="centradotexto">JAVAS E</div></div></a>
+			<div class="intermenu"></div>
+		</div>
+		<div id="contenido">
+		<table border="1" align="center" cellspacing="0" cellpadding="20">
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 10 : Etiqueta &ltFONT&gt para edicion de fuente.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<p>
+							La etiqueta &ltFONT&gt es una etiqueta en linea.<br/>
+							También se puede definir como etiqueta de estilo de texto.<br/>
+							Su único cometido es el de ornamentar el texto.<br/>
+							La etiqueta &ltFONT&gt, es la encargada de dar al texto estilo, color y tamaño mediante la inclusión en ella de varias propiedades ya que sin ellas esta etiqueta no hace nada, al menos tiene que tener una de ellas con un valor.<br/>
+						</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Para poder ver el aspecto visual de esta etiqueta pondremos un texto de referencia sin usar la etiqueta &ltFONT&gt otro usandola pero sin incluir propiedades y otra igual en color rojo, fuente verdana y tamaño 3 mediante la inclusión de propiedades en la etiqueta &ltFONT&gt.
+						</p>
+						<p>
+							<ul>
+								<li>Este es el formato de fuente si no usamos la etiqueta:<br/><br/>
+									Ej.- Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim.
+								</li><br/><br/>
+								<li>Este es el formato de fuente si usamos la etiqueta sin propiedades:<br/><br/>
+									Ej.- <font>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim.</font>
+								</li><br/><br/>
+								<li>Este es el formato de fuente si usamos la etiqueta aplicando propiedades y valores:<br/><br/>
+									Ej.- <font color="red" size="3" face="verdana">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim.</font>
+								</li><br/>
+							</ul>
+						</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>PROPIEDADES:</h2>
+						<p>
+							La etiqueta &ltFONT&gt puede tener varias propiedades para ajustar diferentes parametros, son las siguientes:
+							"color", "face" y "size".
+						</p>
+							<ul>
+								<li><p><u><strong>color</strong></u>: Establece el color de la fuente, sus valores pueden ser nombres de colores en inglés o codigos de color hexadecimal precedidos del simbolo #.</p></li>
+									<ul>
+										<li>Ej. color="red" o color="#ff0000" : <i>Usando este valor el color de la fuente será Rojo.</i></li><br/>
+											<table class="ejemplo">
+												<tr>
+													<td width="600px">
+														Ej. <font color="red">Fuente de color rojo.</font><br/><br/>
+														Ej. <font color="blue">Fuente de color azul.</font><br/><br/>
+														Ej. <font color="green">Fuente de color verde.</font><br/><br/>
+													</td>
+												</tr>
+											</table>
+									</ul>
+								<li><p><u><strong>face</strong></u>: Establece el tipo de fuente que se utilizará.</p></li>
+									<ul>
+										<li>Ej. face="verdana" : <i>Usando este valor el tipo de fuente será Verdana.</i></li><br/>
+											<table class="ejemplo">
+												<tr>
+													<td width="600px">
+														Ej. <font face="arial">Fuente arial.</font><br/><br/>
+														Ej. <font face="verdana">Fuente verdana.</font><br/><br/>
+														Ej. <font face="cambria">Fuente cambria.</font><br/><br/>
+													</td>
+												</tr>
+											</table>
+									</ul>
+								<li><p><u><strong>size</strong></u>: Establece el tamaño de la fuente, sus posibles valores son los numeros del 1 al 7 .</p></li>
+									<ul>
+										<li>Ej. size="1" : <i>Usando este valor el tamaño de la fuente será el tamaño mas pequeño posible.</i></li><br/>
+											<table class="ejemplo">
+												<tr>
+													<td width="600px">
+														Ej. <font size="7">Tamaño de fuente 7.</font><br/><br/>
+														Ej. <font size="6">Tamaño de fuente 6.</font><br/><br/>
+														Ej. <font size="5">Tamaño de fuente 5.</font><br/><br/>
+														Ej. <font size="4">Tamaño de fuente 4.</font><br/><br/>
+														Ej. <font size="3">Tamaño de fuente 3.</font><br/><br/>
+														Ej. <font size="2">Tamaño de fuente 2.</font><br/><br/>
+														Ej. <font size="1">Tamaño de fuente 1.</font><br/><br/>
+													</td>
+												</tr>
+											</table>
+									</ul>
+							</ul>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<div id="pie">
+		<p align="center"><font><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+		<p align="center"><a href="../../indice.html">INDICE</a></p>
+		</div>
+	</body>
+</html>

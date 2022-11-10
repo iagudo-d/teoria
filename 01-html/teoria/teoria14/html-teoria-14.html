@@ -1,0 +1,269 @@
+﻿<html>
+	<head>
+		<title>TEORÍA 14</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/teoria.css"/>
+		<link rel="stylesheet" type="text/css" href="css/html-teoria-14.css"/>
+	</head>
+	<body>
+		<div id="bajonavegador"></div>
+		<div id="navegador">
+				<div class="intermenu"></div>
+				<a href="../../../index.html"><div id="returnmain"><div class="centradotexto">INDEX</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../indice-html.html#teoriahtml"><div id="returnhtmlteoria"><div class="centradotexto">HTML T</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../indice-html.html#ejercicioshtml"><div id="returnhtmlejercicios"><div class="centradotexto">HTML E</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../02-css/indice-css.html#teoriacss"><div id="returncssteoria"><div class="centradotexto">CSS T</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../02-css/indice-css.html#ejercicioscss"><div id="returncssejercicios"><div class="centradotexto">CSS E</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../03-javascript/indice-js.html#teoriajava"><div id="returnjavateoria"><div class="centradotexto">JAVAS T</div></div></a>
+				<div class="intermenu"></div>
+				<a href="../../../03-javascript/indice-js.html#ejerciciosjava"><div id="returnjavaejercicios"><div class="centradotexto">JAVAS E</div></div></a>
+				<div class="intermenu"></div>
+		</div>
+		<div id="contenido">
+			<div width="800px" height="50px" id="titulounidad">
+				<h1 align="center">TEORÍA 14 : Etiqueta &ltMARQUEE&gt, creacion de marquesinas.</h1>
+			</div>
+			<div width="800px" height="50px" id="explicacion">
+						<h2>EXPLICACIÓN:</h2>
+						<p>La etiqueta &ltMARQUEE&gt es una etiqueta en bloque.</p>
+						<p>Es una etiqueta ornamental.</p>
+						<p>Se utiliza para que el objeto al que hace referencia se desplace por la pantalla de forma lineal en forma de marquesina, bien sea un texto, una foto, un simple "DIV" o una tabla compleja entera.</p>
+			</div>
+			<div width="800px" height="50px" id="ejemplo">
+						<h2>EJEMPLO:</h2>
+						<p>Ejemplo de &ltMARQUEE&gt:</p>
+						<p>Sintaxis básica:</p>
+<pre>
+&ltmarquee&gtEsto es un ejemplo de marquesina.&lt/marquee&gt
+</pre>
+						<p>Esto es lo que hace el código anterior:</p>
+<pre>
+<marquee>Esto es un ejemplo de marquesina.</marquee>
+</pre>
+			</div>
+			<div width="800px" height="50px"  id="propiedades">
+				<h2>PROPIEDADES:</h2>
+					<p>La etiqueta &ltMARQUEE&gt tiene varias propiedades, pero no todas funcinales en todos los navegadores, de hecho es una etiqueta que no funciona muy bien en alguno de ellos.</p>
+						<ul class="listaatributos">
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>WIDTH</strong></u>: Con este atributo le daremos ancho a la marquesina. En caso de que no se le especifique un ancho ocupará la siguiente linea completa, al igual que si se le especifica el total de la página. Si se le especifica, actuará como un elemento en linea.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina sin determinar ancho.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										.Texto anterior. <marquee class="verde">Esto es un ejemplo de marquesina.</marquee> .Texto posterior.
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con ancho determinado del 100%.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										.Texto anterior. <marquee width="100%" class="verde">Esto es un ejemplo de marquesina.</marquee> .Texto posterior.
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con ancho determinado de 200px.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										.Texto anterior. <marquee width="200px" class="verde">Esto es un ejemplo de marquesina.</marquee> .Texto posterior.
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>DIRECTION</strong></u>: Mediante el atributo direction, especificaremos como se comportará la marquesina en cuanto a la dirección del movimiento, en su ausencia la marquesina se comportará como si usaramos el valor LEFT, sus posibles valores son: LEFT, RIGHT, UP, DOWN.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. marquesina con dirección hacia izquierda.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee direction="left">Dirección hacia izquierda.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. marquesina con dirección hacia derecha.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee direction="right">Dirección hacia derecha.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. marquesina con dirección hacia arriba.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee class="marquesinadireccionv" direction="up" scrollamount="1">Dirección hacia arriba.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. marquesina con dirección hacia abajo.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee class="marquesinadireccionv" direction="down" scrollamount="1">Dirección hacia abajo.</marquee>
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>BEHAVIOR</strong></u>: Como su nombre indica, es el comportamiento de la marquesina. Sus valores son: SCROLL, ALTERNATE y SLIDE. Por defecto y en ausencia de este atributo su comprtamiento será el mismo que usando el valor SCROLL que especifica que la marquesina haga siempre el mismo movimiento: aparece por un lado, atraviesa la pantalla y desaparece por el lado opuesto, ALTERNATE es el valor con el cual la marquesina rebotará de lado a lado de la pantalla y el valor SLIDE con el cual el objeto aparecerá por un lado y cuando llege al final del recorrido se detiene.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con BEHAVIOR SCROLL.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee behavior="scroll">BEHAVIOR SCROLL.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con BEHAVIOR ALTERNATE.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee behavior="alternate">BEHAVIOR ALTERNATE.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con BEHAVIOR SLIDE.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee behavior="slide">BEHAVIOR SLIDE.</marquee>
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>SCROLLDELAY</strong></u>: Con este atributo podemos modificar la velocidad a la que la marquesina se desplaza, el valor vendrá expresado en milisegundos y técnicamente es el tiempo que la marquesina tarda en moverse cada punto de desplazamiento, podemos ver en el ejemplo tercero que con un SCROLLDELAY de 1000 milisegundos la marquesina se desplazará un punto por segundo, en el primer ejemplo sin SCROLLDELAY el desplazamiento es de 85 milisegundos por cada punto de desplazamiento.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina sin SCROLLDELAY.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee>sin SCROLLDELAY.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con SCROLLDELAY 1.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee scrolldelay="1">SCROLLDELAY 1.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con SCROLLDELAY 100.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee scrolldelay="100">SCROLLDELAY 100.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con SCROLLDELAY 1000.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee scrolldelay="1000">SCROLLDELAY 1000.</marquee>
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>SCROLLAMOUNT</strong></u>: Con este atributo podemos modificar la velocidad a la que la marquesina se desplaza, a diferencia del SCROLLDELAY que es el tiempo que tarda en hacer cada movimiento, con SCROLLAMOUNT lo que indicaremos es la cantidad de pixels que desplazará la marquesina en una unidad de tiempo que estará determinada por el SCROLLDELAY, el valor vendrá expresado en pixels.</p>
+								<p>Veamos cuatro ejemplos con los siguientes SCROLLAMOUNT, en el primer ejemplo podemos observar el desplazamiento por defecto que serán 6 pixels por unidad de tiempo, en el segundo 1 pixel, y 10 y 20 pixels en los dos últimos respectivamente.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina sin definir el SCROLLAMOUNT.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee>Marquesina sin definir el SCROLLAMOUNT.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con SCROLLAMOUNT 1.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee scrollamount="1">SCROLLAMOUNT 1.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con SCROLLAMOUNT 10.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee scrollamount="10">SCROLLAMOUNT 10.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con SCROLLAMOUNT 20.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee scrollamount="20">SCROLLAMOUNT 20.</marquee>
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>LOOP</strong></u>: Con este atributo podemos modificar la cantidad de veces que la marquesina realizara el barrido antes de parar, el valor por defecto es de INFINITE, si ponemos el valor 1, en el tercer ejemplo pasará 3 veces.</p>
+								<p>Hay que decir que solo funciona en IE y que la marquesina una vez acabado los ciclos no quedará en pantalla.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina sin definir el LOOP.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee>Marquesina sin definir el LOOP.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con LOOP 1.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee loop="1">LOOP 1.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con LOOP 3.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee loop="3">LOOP 3.</marquee>
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+							<li class="atributo">
+								<div class="definicionatributo">
+								<p><u><strong>BGCOLOR</strong></u>: Con este atributo podemos modificar el color de fondo de la marquesina, el valor lo podremos expresar tanto con el nombre de ciertos colores en inglés así como con el código hexadecimal del color pertinente.</p>
+								</div>
+								<div class="ejemplosatributos">
+								<ul class="listaejemplosatributos">
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina sin definir el BGCOLOR.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee>Marquesina sin definir el BGCOLOR.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con BGCOLOR GREEN.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee bgcolor="blue">BLUE.</marquee>
+									</div></div>
+									</li>
+									<li class="ejemploatributo">
+										<p>Ej. Marquesina con BGCOLOR #00FF00.</p>
+									<div class="ejemplo"><div class="ejemplocentrado" align="center">
+										<marquee bgcolor="#0000ff">#0000FF.</marquee>
+									</div></div>
+									</li>
+								</ul>
+								</div>
+							</li>
+						</ul>
+			</div><!---->
+			<div id="pie">
+			<p align="center"><font><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+			<p align="center"><a href="../../indice.html">INDICE</a></p>
+			</div>
+		</div>
+	</body>
+</html>

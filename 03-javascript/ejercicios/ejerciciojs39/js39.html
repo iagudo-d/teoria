@@ -1,0 +1,68 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 39</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 39 :  Uso de la función substring e indexOf para extraer texto.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Pedir al usuario el nombre y los apellidos separados por coma.
+						Extraer el nombre de los apellidos.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						/*
+						var nombre;
+						var apellidos;
+						var datousuario;
+						var posicioncoma;
+
+						datousuario = prompt("Dime tu nombre y tus apellidos insertando una coma entre el nombre y los dos apellidos.");
+						posicioncoma = datousuario.indexOf(",")
+						nombre = datousuario.substring(0,posicioncoma);
+						apellidos = datousuario.substring(posicioncoma+1);
+						
+						alert("Tus apellidos son: \n"+apellidos+"\ny tu nombre es: \n"+nombre)*/
+						
+						
+					</script>
+					
+					<script type="text/javascript">
+					
+						var nombre;
+						var apellido1;
+						var apellido2;
+						var datousuario;
+						var posicioncoma1;
+						var posicioncoma2;
+
+						datousuario = prompt("Dime tu nombre y tus apellidos separados por comas.");
+						posicioncoma1 = datousuario.indexOf(",")
+						posicioncoma2 = datousuario.indexOf(",",posicioncoma1+1)
+						nombre = datousuario.substring(0,posicioncoma1);
+						apellido1 = datousuario.substring(posicioncoma1+1,posicioncoma2);
+						apellido2 = datousuario.substring(posicioncoma2+1);
+						
+						alert("Tu 1er apellido es: \n"+apellido1+"\nTu 2º apellido es: \n"+apellido2+ "\nY tu nombre es: \n"+nombre)
+						
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

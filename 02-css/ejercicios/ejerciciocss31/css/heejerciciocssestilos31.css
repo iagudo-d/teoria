@@ -1,0 +1,12 @@
+﻿body{background-image:url(../imagenes/fondo.gif);}
+#completa{width:1000px;height:600px;background-color:;margin:0px auto;}
+#blat{width:200px;height:560px;float:left;background-color:;}
+#bcent{width:125px;height:560px;float:left;background-color:lightblue;}
+#bder{width:675px;height:560px;float:right;background-color:;}
+#cab{width:675px;height:150px;float:left;background-color:lightblue;background-image:url(../imagenes/redi/logo.gif);background-repeat:no-repeat;background-position:center top;}
+#miz{width:30px;height:410px;float:left;background-color:lightblue;}
+#cont{width:615px;height:410px;float:left;background-color:lightblue;}
+#mde{width:30px;height:410px;float:left;background-color:lightblue;}
+#piet{width:1000px;height:40px;float:left;background-color:;}
+.boton{margin:0px 0px 10px 0px;}
+#bquienes{margin-top:165px;}

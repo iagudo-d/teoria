@@ -1,0 +1,6 @@
+﻿#contenedor{width:900px;height:700px;background-color:black;}
+#cab{width:900px;height:150px;background-color:blue;float:left;}
+#lti{width:200px;height:450px;background-color:orange;float:left;}
+#cen{width:500px;height:450px;background-color:green;float:left;}
+#ltd{width:200px;height:450px;background-color:pink;float:left;}
+#pie{width:900px;height:100px;background-color:yellow;float:left;}

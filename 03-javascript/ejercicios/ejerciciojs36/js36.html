@@ -1,0 +1,58 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 36</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 36 :  Aplicacion de funcion SUMA y RESTA con un botón.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Crear una función, calcule y te muestre su suma y otra que lo haga con la resta.
+						Crear un boton para usar cada función.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						function suma ()
+						{var numero1;
+						numero1 = Number(prompt("Dime un número"));
+						var numero2;
+						numero2 = Number(prompt("Dime otro número"));
+						var numsum;
+						numsum = (numero1+numero2);
+						alert("La suma de los dos números es: "+numsum);}
+					
+						
+						function resta ()
+						{var numero1;
+						numero1 = Number(prompt("Dime un número"));
+						var numero2;
+						numero2 = Number(prompt("Dime un número para restarselo al primero"));
+						var numsum;
+						numres = (numero1-numero2);
+						alert("La resta de los dos números es: "+numres);}
+					
+							/**/
+					</script>
+					
+					<input type="button" name="suma" value="suma" onClick="suma()">
+					<input type="button" name="resta" value="resta" onClick="resta()">
+					
+					
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

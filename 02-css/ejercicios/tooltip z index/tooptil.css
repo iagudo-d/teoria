@@ -1,0 +1,45 @@
+﻿body{
+	background-color:tan;
+}
+
+
+
+#tooptil1{
+position:absolute;
+top:50%;
+left:50%;
+margin-top:-50px;
+margin-left:-50px;
+	float:left;
+	background:red;
+	width:100px;
+	height:100px;
+	z-index:1;
+}
+
+#tooptil2{
+position:absolute;
+top:50%;
+left:50%;
+margin-top:-50px;
+margin-left:-50px;
+	float:left;
+	background:blue;
+	width:100px;
+	height:100px;
+	z-index:1;
+}
+#tooptil3{
+position:absolute;
+top:50%;
+left:50%;
+margin-top:-50px;
+margin-left:-50px;
+	background:yellow;
+	width:100px;
+	height:100px;
+	z-index:10;
+}
+
+#uno:hover #tooptil1{z-index:11;}
+#dos:hover #tooptil2{z-index:11;}

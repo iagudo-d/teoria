@@ -1,0 +1,30 @@
+﻿#imgroja{width:100px;height:100px;position:absolute;top:250px;left:20px}
+#imgazul{width:100px;height:100px;position:absolute;top:250px;left:140px}
+#imgverde{width:100px;height:100px;position:absolute;top:250px;left:260px}
+#mascararoja{width:100px;height:100px;position:absolute;top:250px;left:20px;background-color:red;opacity:0.3;}
+#mascaraazul{width:100px;height:100px;position:absolute;top:250px;left:140px;background-color:blue;opacity:0.3;}
+#mascaraverde{width:100px;height:100px;position:absolute;top:250px;left:260px;background-color:green;opacity:0.3;}
+
+#imgrojahover{width:100px;height:100px;position:absolute;top:400px;left:20px}
+#imgazulhover{width:100px;height:100px;position:absolute;top:400px;left:140px}
+#imgverdehover{width:100px;height:100px;position:absolute;top:400px;left:260px}
+#mascararojahover{width:100px;height:100px;position:absolute;top:400px;left:20px;background-color:red;opacity:0;}
+#mascaraazulhover{width:100px;height:100px;position:absolute;top:400px;left:140px;background-color:blue;opacity:0;}
+#mascaraverdehover{width:100px;height:100px;position:absolute;top:400px;left:260px;background-color:green;opacity:0;}
+.rojo a:hover #mascararojahover{opacity:0.3;}
+.azul a:hover #mascaraazulhover{opacity:0.3;}
+.verde a:hover #mascaraverdehover{opacity:0.3;}
+
+
+#botonrojo{width:100px;height:100px;position:absolute;top:550px;left:20px;background-color:red;opacity:1;}
+#botonazul{width:100px;height:100px;position:absolute;top:550px;left:140px;background-color:blue;opacity:1;}
+#botonverde{width:100px;height:100px;position:absolute;top:550px;left:260px;background-color:green;opacity:1;}
+#imgrojaboton{width:100px;height:100px;position:absolute;top:700px;left:20px}
+#imgazulboton{width:100px;height:100px;position:absolute;top:700px;left:140px}
+#imgverdeboton{width:100px;height:100px;position:absolute;top:700px;left:260px}
+#mascararojahoverext{width:100px;height:100px;position:absolute;top:700px;left:20px;background-color:red;opacity:0;}
+#mascaraazulhoverext{width:100px;height:100px;position:absolute;top:700px;left:140px;background-color:blue;opacity:0;}
+#mascaraverdehoverext{width:100px;height:100px;position:absolute;top:700px;left:260px;background-color:green;opacity:0;}
+.rojoext a:hover #mascararojahoverext{opacity:0.3;}
+.azulext a:hover #mascaraazulhoverext{opacity:0.3;}
+.verdeext a:hover #mascaraverdehoverext{opacity:0.3;}

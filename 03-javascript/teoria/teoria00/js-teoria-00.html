@@ -1,0 +1,597 @@
+﻿<html>
+	<head>
+		<title>TEORÍA JAVASCRIPT COMPLETA</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/teoria.css"/>
+		<link rel="stylesheet" type="text/css" href="css/js-teoria-00.css"/>
+	</head>
+	<body>
+		<div id="bajonavegador"></div>
+			<div id="navegador">
+			<div class="intermenu"></div>
+			<a href="../../../index.html"><div id="returnmain"><div class="centradotexto">INDEX</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../01-html/indice-html.html#teoriahtml"><div id="returnhtmlteoria"><div class="centradotexto">HTML T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../01-html/indice-html.html#ejercicioshtml"><div id="returnhtmlejercicios"><div class="centradotexto">HTML E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#teoriacss"><div id="returncssteoria"><div class="centradotexto">CSS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../../02-css/indice-css.html#ejercicioscss"><div id="returncssejercicios"><div class="centradotexto">CSS E</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-js.html#teoriajava"><div id="returnjavateoria"><div class="centradotexto">JAVAS T</div></div></a>
+			<div class="intermenu"></div>
+			<a href="../../indice-js.html#ejerciciosjava"><div id="returnjavaejercicios"><div class="centradotexto">JAVAS E</div></div></a>
+			<div class="intermenu"></div>
+		</div>
+		<div id="contenido">
+		<table border="1" align="center" cellspacing="0" cellpadding="20">
+		<!--TEMA 1-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 01 : Introducción a JAVASCRIPT, conceptos básicos.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<p>JAVASCRIPT es un lenguaje de script que nos permite dinamizar las páginas web.</p>
+						<p>JAVASCRIPT es un lenguaje "case sensitive", es decir diferencia mayusculas y minusculas.</p>
+						<p>Todas las instrucciones se terminan mediante punto y coma (;).</p>
+						<p>Comentarios en JAVASCRIPT:</p>
+							<ul>
+								<li>Para comentarios de una sola linea usaremos dos //.</li>
+								<li>Para comentarios multilinea usaremos /* ... */.</li>	
+							</ul>
+						<p>Se puede introducir de varias formas:</p>
+							<ul>
+								<li>Dentro del documento HTML.</li>
+								<li>En un archivo vinculado.</li>	
+							</ul>
+						<p>Tipos de datos en JAVASCRIPT:</p>
+						<p>En este lenguaje no se define el tipo de datos al crear la variable, por defecto los datos serán considerados como texto, pero pueden ser de cuatro tipos:</p>
+							<ul>
+								<li>Texto (String).</li>
+								<li>Numericos.</li>
+								<li>Booleanos (Verdadero o Falso).</li>
+								<li>Nulos (Null o sin valor).</li>
+							</ul>
+						<p></p>
+						<p></p>	
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Aquí vemos un ejemplo de la estructura de un elemento HTML:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+		<!--TEMA 1-->
+		<!--TEMA 2-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 02 : Cuadros de dialogo en JAVASCRIPT.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<p>Hay varios tipos de cuadros de dialogo: ALERT, PROMPT.</p>
+							<ul>
+								<li>
+									<p>ALERT: Nos permitira abrir una alerta para el usuario.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+alert("hola buenos días");
+</pre>
+									<p>Esto nos mostrará una alerta diciendo buenos dias</p>
+								</li>
+								<li>
+									<p>PROMPT: Sirve para que el usuario nos proporcione información.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+prompt("¿Hola como te llamas?");
+</pre>
+									<p>Esto abrirá un cuadro de dialogo preguntando como te llamas con un formulario para introducir el dato solicitado.</p>
+									<p>Se le puede añadir una segunda parte a modo de ayuda para rellenar el campo poniendo una coma tras la pregunta y el texto de ayuda, esto aparecerá dentro del campo del formulario.</p>
+<pre>
+prompt("¿Hola como te llamas?,Escribe aqui tu nombre.");
+</pre>
+								</li>	
+							</ul>
+							En los cuadros de dialogo no se pueden usar etiqutas HTML, usaremos secuencias de escape:
+							
+							<ul>
+								<li>\n : Para insertar un salto de linea como con &ltBR/&gt.
+								<li>\t : Para tabular un texto.
+								<li>\" : Para insertar comillas dentro de un cuadro de dialogo.
+							</ul>
+						</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p></p>
+				</td>
+			</tr>
+		<!--TEMA 2-->
+		<!--TEMA 3-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 03 : Estructuras condicionales simples.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<p>Las estructuras condicionales hacen lo que su nombre indica.</p>
+						<p>Hay varias condicionales y son: IF, SWTCH. </p>
+							<ul>
+								<li>
+									<p>IF: La estructura condicional IF, comprobara una condición, si se cumple devolvera una respuesta y si no se cumple devolverá otra.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+if ( aqui va la condición )
+{ aquí va la resolucion de si se cumple }
+else
+{ aquí va la resolucion de si no se cumple }
+</pre>
+									<p>El shorthand para los condicionales IF es el siguiente:</p>
+<pre>
+condicion <font color="orange">?</font> valor si es verdad <font color="orange">:</font> valor si es falsa.
+</pre>
+									<p>La condición esta compuesta por dos valores separados por un operador de comparación que son los siguientes:</p>
+<pre>
+> mayor que
+< menor que
+>= mayor o igual que
+<= menor o igual que
+== igual a 
+!= distinto de
+</pre>	
+									<ul>
+										<li>
+											<p>Operadores Lógicos:</p>
+											<p>Si queremos comprobar mas de una condicion tenemos dos operadores logicos Y ; O</p>
+												<ul>
+													<li><font color="orange">Operador "Y": </font>Operador "Y": Con el operador "Y" (<font color="orange">en JAVASCRIPT &&</font>) comprobaremos varias opciones y si todas ellas se cumplen, devolvera la condición verdadera.</li>
+													<li><font color="orange">Operador "O": </font>Con el operador "O" (<font color="orange">en JAVASCRIPT ||</font>) se comprueban varias condiciones y si cualquiera de ellas es verdad devuelve la condición verdadera, solo si todas ellas son falsas nos devolverá la condición falsa.</li>	
+												</ul>
+										</li>
+									</ul>	
+								</li>
+								<li>
+									<p>SWITCH: Es una alternativa al IF pero solo se puede aplicar cuando la condicion es de igualdad</p>
+									<p>Su sintaxis es:</p>
+									<p>Escribiremos SWITCH y entre parentesis la variable que queremos contrastar.</p>
+									<p>Abriremos llaves y escribiremos los CASE seguidos de el valor al que queremos igualar, despues exscribiremos los</p>
+									<p>Al final del switch y antes de cerrar las llaves, con la instruccion default seguida de dos puntos(:) podremos especificar las instrucciones si no se cumple ningun "case"</p>
+									<p>Podemos poner tantos CASE como queramos y será como si pusieramos el condicional "O", no se pueden contrastar varias condiciones como cuando usamos la funcion "Y" puesto que estas son excluyentes.</p>
+<pre>
+
+switch ( aqui va la variable que vamos a analizar )
+{ "case" el valor al que la igualamos : las instrucciones si se cumple la igualdad;
+break; }
+
+</pre>
+								</li>
+							</ul>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Ejemplo de IF:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+		<!--TEMA 3-->
+		<!--TEMA 4-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 04 : Los bucles.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<p>Las bucles sirven para ejecutar una accion varias veces.</p>
+						<p>Hay varias tipos de bucles: WHILE, FOR</p>
+							<ul>
+								<li>
+									<p>WHILE: Permite ejecutar una instruccion varias veces mientras se cumpla la condicion.</p>
+									<p>Su sintaxis es:</p>
+									<p>WHILE y entre parentesis la condicion, tras esto y entre llaves escribiremos las instrucciones que ejecutará si se cumple la la condición.</p>
+<pre>
+while ( aqui va la condicion )
+{ Las instrucciones que se ejecutarán mientras la condicion sea verdad }
+</pre>
+<pre>
+var i=1;			<---INICIALIZAMOS LA VARIABLE
+
+while ( i < 10 )	<--MIENTRAS SE CUMPLA i MENOR QUE 10
+{alert( i ) }		<--MUESTRA UN ALERT CON EL VALOR DE i
+</pre>
+								</li>
+								<li>
+									<p>FOR: Es una estrucutra repetitiva como WHILE pero que solo podremos utilizar cuando conocemos la cantidad de repeticiones.</p>
+									<p>Su sintaxis es:</p>
+									<p>FOR y entre parentesis iniciamos la variable un punto y coma (;) ponemos la condicion, otro punto y coma(;) y el incremento positivo o negativo. Tras esto entre llaves las instrucciones que se repetiran mientras se cumpla la condición.</p>
+<pre>
+var i="";
+for   ( inicializamos la variable   ;   condición   ;   incremento positivo o negativo )
+{  instruciones que ejecuta mientras se cumpla la condición }
+</pre>
+<pre>
+var i="";
+for (i=1 ; i<=10 ; i=i+1 )
+{ Las instrucciones que se ejecutarán mientras la condicion sea verdad }
+</pre>
+								</li>
+							</ul>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Ejemplo de IF:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+			<!--TEMA 4-->
+			<!--TEMA 5-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 05 : Funciones.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<p>Una funcion es un conjunto de operaciones que resuelven un problema.</p>
+						<p>Podemos llamarlas en cualquier parte del programa.</p>
+						<p>Su sintaxis es:</p>
+						<p>function + nombre de la funcion + (argumentos separados de comas ",") + {codigo de la funcion y punto y coma ";"}</p>
+<pre>
+function nombre de la funcion ( argumento1 , argumento2 ... )
+{ codigo de la funcion + ; }
+</pre>
+						<p>Para llamar a una funcion usaremos su nombre, poniendo el valor de sus argumentos si los tiene.</p>
+						<p>Existen funciones con argumentos y sin argumentos.</p>
+							<ul>
+								<li><p>Funciones sin argumentos:</p></li>
+								
+								
+								
+								
+								
+								
+								<li>
+								<p>Funciones con argumentos:</p>
+								<p>Los parametros se crearan genericos en la funcion dentro de los parentesis y separados entre comas y se utilizarán en las instrucciones de la función dentro de las llaves.</p>
+								<p>Llamaremos a la funcion indicando sus parametros, que pueden ser fijos o variables.</p>
+								
+								
+								
+								
+								</li>	
+							</ul>
+						<p>Por defecto las funciones no me permiten trabajar con su resultado. Podemos usar "return" para poder trabajar con un resultado de una función.(No se puede devolver varios resultados.)</p>
+<pre>
+	
+
+
+
+
+</pre>
+						<p>Las variables que creamos en una función, solo tienen validez dentro de la función a no ser que las retornemos.</p>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+						
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Aquí vemos un ejemplo de la estructura de un elemento HTML:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+			<!--TEMA 5-->
+			<!--TEMA 6-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 06 : Eventos.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+						<ul>
+							<li>
+								<p>Evento on-click:</p>
+								<p>Nos va a permitir asignar un codigo JAVASCRIPT o una función a un objeto de HTML.</p>
+							</li>
+								
+								
+								
+								
+								
+								
+								
+							</ul>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+						
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Aquí vemos un ejemplo de la estructura de un elemento HTML:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+			<!--TEMA 6-->
+			<!--TEMA 7-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 07 : Mapas de imagenes con JAVASCRIPT.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+					<p>Crearemos el mapa de imagenes con HTML, dentro de cada area indicaremos en "onClick" el enlace al que queremos dirigirlos y en "onMouseOver" y "OnMouseOut" indicaremos el elemento que queremos seleccionar por su "id" que será la imagen y modificaremos su propiedad "src" con la imagenes que queramos.</p>
+					<p>No permite la opcion "target='blank'"</p>
+						<ul>
+							<li>
+								<p>Evento on-click:</p>
+								<p>Nos va a permitir asignar un codigo JAVASCRIPT o una función a un objeto de HTML.</p>
+							</li>
+								
+								
+								
+								
+								
+								
+								
+							</ul>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+						
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Aquí vemos un ejemplo de la estructura de un elemento HTML:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+			<!--TEMA 7-->
+			<!--TEMA 8-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 08 : Funciones de texto en JAVASCRIPT.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+					<p>Las fun</p>
+						<ul>
+							<li>
+								<p>Función length:</p>
+								<p>Nos devuelve el tamaño de un texto, el número de caracteres que tiene ese texto.</p>
+								<p>Su sintaxis es:</p>
+<pre>
+(donde buscará).length()
+</pre>
+							</li>
+							<li>
+								<p>Función toLowerCase:</p>
+								<p>Con esta función convertiremos una cadena de texto en minúsculas.</p>
+							</li>
+							<li>
+								<p>Función toUpperCase:</p>
+								<p>Con esta función convertiremos una cadena de texto en mayúsculas.</p>
+							</li>
+							<li>
+								<p>Función indexOf:</p>
+								<p>Con esta función buscaremos en un texto una cadena que buscamos, en caso afirmativo nos devolverá la posición mediante un número empezando por 0 seguido de su posición y en caso negativo nos devolverá -1.</p>
+								<p>Además esta función nos permite un segundo parametro que será la posicion donde queremos comenzar a buscar.</p>
+							</li>
+							<li>
+								<p>Función substring:</p>
+								<p>Nos permite extraer un texto de el interior de otro, tiene dos argumentos o parametros, la posición desde donde comenzamos a extraer y el segundo es la posición final donde queremos parar de extraer, SIN incluir el ultimo caracter.</p>
+								<p>Si solo ponemos un argumento, extraerá desde esa posición hasta el final del texto.</p>
+							</li>
+							<li>
+								<p>Función replace:</p>
+								<p>Nos permite reemplazar un texto con otro.</p>
+								<p>Su sintaxis es:</p>
+								<p>La funcion y entre parentesis el texto a buscar y sustituir coma y el texto que sustituirá al anterior.</p>
+								<p>Solo cambiará el primer texto que encuentre.</p>
+<pre>
+.replace ("texto a cambiar","texto con el que lo sustituira")
+</pre>
+							</li>
+							<li>
+								<p>Función substr:</p>
+								<p>Nos permite extraer un texto que este dentro de otro texto, el primer argumento es la posición de inicio desde donde queremos empezar a extraer y el segundo argumento es el numero de caracteres que queremos que extraiga.</p>
+								<p>Su sintaxis es:</p>
+								<p>La funcion y entre parentesis el texto a buscar y sustituir coma y el texto que sustituirá al anterior.</p>
+								<p>Solo cambiará el primer texto que encuentre.</p>
+<pre>
+.substr (posicion de inicio, longitud de extracción)
+</pre>
+							</li>
+						</ul>
+						
+							
+						
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Aquí vemos un ejemplo de la estructura de un elemento HTML:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+			<!--TEMA 8-->
+			<!--TEMA 9-->
+			<tr>
+				<td width="800px" height="50px" class="titulounidad">
+					<h1 align="center">TEORÍA 09 : Funciones numéricas en JAVASCRIPT.</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EXPLICACIÓN:</h2>
+					<p>Las fun</p>
+						<ul>
+							<li>
+								<p>Función isNaN (is not a number):</p>
+								<p>Con esta función comprobaremos si un valor es un número o no, si es cierto que es un número continuará.</p>
+								<p>Su sintaxis es:</p>
+<pre>
+isNaN(variable a comprobar)
+</pre>
+							</li>
+							<li>
+								<p>Objeto MATH:</p>
+								<p>Nos permitirá trabajar con funciones matemáticas para calcular el máximo el mínimo, exponentes, raices, números aleatorios, etc.</p>
+							</li>
+								<ul>
+									<li>
+									<p>Math.max: con esta función calcularemos el nuumero mayor de una serie de números.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.max(var 1,var 2,....var x)
+</pre>
+									</li>
+									<li>
+									<p>Math.min: con esta función calcularemos el nuumero menor de una serie de números.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.min(var 1,var 2,....var x)
+</pre>
+									</li>
+									<li>
+									<p>Math.ads: Con esta función calcularemos valor absoluto de un número, solo admite una variable o numero</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.ads(var o numero)
+</pre>
+									</li>
+									<li>
+									<p>Math.pow: con esta función calcularemos el exponente de un número, tiene dos elementos el primero el numero elevado y el segundo el exponente.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.pow(num1,exponente)
+</pre>
+									</li>
+									<li>
+									<p>Math.sqrt: con esta función calcularemos la raiz cuadrada de un número, solo admite una variable o numero.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.sqrt(variable o numero)
+</pre>
+									</li>
+									<li>
+									<p>Math.random: nos devolverá un numero aleatorio entre 0 y 1.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.random()
+</pre>
+									</li>
+									<li>
+									<p>Math.ceil: Sirve para redondear hacia en entero mayor.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.ceil(variable o numero)
+</pre>
+									</li>
+									<li>
+									<p>Math.floor: Sirve para redondear hacia en entero menor.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.floor(variable o numero)
+</pre>
+									</li>
+									<li>
+									<p>Math.round: Sirve para redondear hacia el entero más próximo.</p>
+									<p>Su sintaxis es:</p>
+<pre>
+Math.round(variable o numero)
+</pre>
+									</li>
+								</ul>
+							
+						</ul>
+				</td>
+			</tr>
+			<tr>
+				<td width="800px" height="50px">
+					<h2>EJEMPLO:</h2>
+						<p>
+							Aquí vemos un ejemplo de la estructura de un elemento HTML:
+						</p>
+						<img src="imagenes/estructura-etiqueta.png"/>
+				</td>
+			</tr>
+			<!--TEMA 9-->
+		</table>
+		</div>
+		<div id="pie">
+		<p align="center"><font><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+		<p align="center"><a href="../../indice.html">INDICE</a></p>
+		</div>
+	</body>
+</html>

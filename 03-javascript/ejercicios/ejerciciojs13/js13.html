@@ -1,0 +1,45 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 13</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 13 : Uso de varias condiciones.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar la ciudad y la categoria, si es de Madrid y de la categoria A libra los viernes, si es de Barcelona y de la categoria B libra los sabados. y para cualquier otra ciudad y categoria libra los domingos.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+						var ciudad;
+						ciudad = prompt("¿Dime tu ciudad?");
+						ciudad = ciudad.toUpperCase();
+						var categoria;
+						categoria = prompt("¿A que categoria perteneces A, B o C?");
+						categoria = categoria.toUpperCase();
+						
+						if (ciudad == 'MADRID' && categoria == 'A')
+						{alert("Libras los viernes");}
+						else
+						{if (ciudad == 'BARCELONA' && categoria == 'B')
+						{alert("Libras los Sabados");}
+						else
+						{alert("Libras los Domingos");}}/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

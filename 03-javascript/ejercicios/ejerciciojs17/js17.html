@@ -1,0 +1,48 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 17</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 17 : Uso de varias condiciones.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Pedir categoria, sexo y ciudad.
+						Todas las personas de la categoria A o que sean mujeres de Madrid tienen vacaciones en agosto.
+						El resto en Julio.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+						var ciudad;
+						ciudad = prompt("¿De donde eres?");
+						ciudad = ciudad.toUpperCase();
+						var sexo;
+						sexo = prompt("¿Eres Hombre o Mujer?");
+						sexo = sexo.toUpperCase();
+						var categoria;
+						categoria = prompt("¿A que categoría perteneces A, B o C?");
+						categoria = categoria.toUpperCase();
+												
+						if ((ciudad == 'MADRID' && sexo == 'MUJER') || categoria == 'A')	<!-- IMPORTANTE ANIDAR CON PARENTESIS LAS && Y LAS ||-->
+						{alert("Tienes vacaciones en Agosto");}
+						else
+						{alert("Tienes vacaciones en Julio");}
+						/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

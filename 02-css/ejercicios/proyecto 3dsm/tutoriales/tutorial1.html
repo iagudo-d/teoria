@@ -1,0 +1,112 @@
+﻿<html>
+	<head>
+		<title>INDEX 3DSM</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+		<meta content="" http-equiv="refresh">
+	</head>
+	<body>
+		<div id="contenedorlateral">
+			<div id="logolateral"><a href="index.html"><img src="../imagenes/logolateral.png" width="80%" height="100%"/></a></div>
+			<div id="menulateralizq">
+				<div id="creatorsup"><p>Esta web ha sido creada por Deepblack, mediante el uso de HTML y CSS.</p></div>
+				<div id="margensup"><center><img src="../imagenes/biosup.png" height="100%"/></center></div>
+				<div id="divcentradobotones">
+					<div id="divbotonera">
+						<div class="divrow">
+							<a href="../3dsm.html" class="botonmenu"><div class="botonmenu" id="b3ds"><span>3DSM</span></div></a>
+						</div>
+						<div class="divrow">
+							<a href="../tutoriales.html" class="botonmenu"><div class="botonmenu" id="btutoriales"><span>TUTORIALES</span></div></a>
+						</div>
+						<div class="divrow">
+							<a href="../plugins.html" class="botonmenu"><div class="botonmenu" id="bplugins"><span>PLUG-INS</span></div></a>
+						</div>
+						<div class="divrow">
+							<a href="../modelos.html" class="botonmenu"><div class="botonmenu" id="bmodelos"><span>MODELOS</span></div></a>
+						</div>
+						<div class="divrow">
+							<a href="../texturas.html" class="botonmenu"><div class="botonmenu" id="btexturas"><span>TEXTURAS</span></div></a>
+						</div>
+						<div class="divrow">
+							<a href="../contacto.html" class="botonmenu"><div class="botonmenu" id="bcontacta"><span>CONTACTA</span></div></a>
+						</div>
+					</div>
+				</div>
+				<div id="margeninf"><center><img src="../imagenes/bioinf.png" height="100%"/></center></div>
+				<div id="creatorsup"><p>Algunos datos e imagenes, han sido recabados de internet meranmente para fines educativos.</p></div>
+			</div>
+		</div>
+		<div id="contenedorppal">
+			<!--CONTENIDO-->
+				<h1>Tutorial 3ds max: Modelando iphone 5. Parte 3</h1>
+					<p>Hola a todos de nuevo y bienvenidos a este nuevo tutorial en español de 3ds max. Vamos a seguir con la tercera  parte sobre cómo modelar un IPhone5 en 3ds max paso a paso. De momento os puedo dejar un render de cómo me va quedando a mí. Todavía no está terminado pero sí que os podéis ir haciendo una idea.</p>
+				<img class="centradoimagen" src="imagenes/iphone01.png"/>
+					<p>Vamos a continuar con nuestro modelado por donde nos quedamos en el anterior tutorial. Hoy toca modelar los botones de control de sonido, que los componen el botón de silenciar y los botones de subir y barjar el volumen</p>
+				<img class="centradoimagen" src="imagenes/iphone02.png"/>
+					<p>Nos ponemos en el marcha con el primer paso. Para empezar a modelar el botón de silencio, seleccionamos las aristas que vemos en la siguiente imagen. Recordad, que os podéis ayudar de diversos comandos de selección, como es el caso del comando "Ring".</p>
+				<img class="centradoimagen" src="imagenes/iphone03.png"/>
+					<p>Con estas aristas seleccionados, aplicamos un "connect" de dos secciones para determinar el área del botón de silencio. Podéis aplicar los siguientes valores.</p>
+				<img class="centradoimagen" src="imagenes/iphone04.png"/>
+					<p>En el siguiente paso volvemos a aplicar otro "connect" sobre las aristas de la parte interior que hemos creado en el paso anterior. Aquí tenéis los valores.</p>
+				<img class="centradoimagen" src="imagenes/iphone05.png"/>
+					<p>A continuación, seleccionamos las líneas del paso anterior más todas las que están en paralelo para realizar un "connect" de dos segmentos.</p>
+				<img class="centradoimagen" src="imagenes/iphone06.png"/>
+					<p>Seleccionamos los vértices que señalan las flechas de las aristas seleccionadas y modificamos su posición para que queden más o menos como se muestra en esta imagen.</p>
+				<img class="centradoimagen" src="imagenes/iphone07.png"/>
+					<p>Este paso os lo voy a complicar un poco; Tenéis que realizar un "connect" de 1 segmento y un "inset" de los polígonos interiores para que queden aproximademente de la siguiente forma. Recordad que podéis comentar vuestras dudas en los comentarios de esta entrada.</p>
+				<img class="centradoimagen" src="imagenes/iphone08.png"/>
+					<p>Extruimos los polígonos que quedan en la parte interior con un valor de -0,05cm.</p>
+				<img class="centradoimagen" src="imagenes/iphone09.png"/>
+					<p>Volvemos a aplicar un "inset" sobre los polígonos seleccionados del paso anterior.</p>
+				<img class="centradoimagen" src="imagenes/iphone10.png"/>
+					<p>Extruimos de hacia el exterior los polígonos que forman la pestaña del control de silencio de nuestro IPhone5 con los siguientes valores.</p>
+				<img class="centradoimagen" src="imagenes/iphone11.png"/>
+					<p>Aplicamos un "chamfer" de 0,006cm sobre las aristas que están seleccionadas de la pesataña de silencio del IPhone5. Este paso es necesario para que el modificador "turbosmooth" no suavice de forma tan exagerada estos bordes de la pestaña.</p>
+				<img class="centradoimagen" src="imagenes/iphone12.png"/>
+					<p>En el último paso realizaremos los cortes necesarios con el comando "Cut" y "connect" para llegar a la siguiente composición. Es bastante sencillo. Intentadlo y si tenéis alguna duda, podéis preguntar en los comentarios de esta entrada.</p>
+				<img class="centradoimagen" src="imagenes/iphone13.png"/>
+					<p>Una vez terminada la pesataña del control de silencio del móvil, vamos a seguir con los botones de subir y bajar volumen. Para ello, volvmos a realizar un "connect" como hicimos en los dos primeros pasos con los siguientes valores. Una vez realizado el "connect", moved las aristas seleccionadas hacia arriba hasta una posición cercana a la pestaña de silencio.</p>
+				<img class="centradoimagen" src="imagenes/iphone14.png"/>
+					<p>Dentro del polígono que véis a continuación, aplicad dos "connect" para realizar el corte horizontal y el corte vertical. Luego, con la ayuda del comando "Cut" realizad los cortes diagonales para que quede de la siguiente manera. En el centro sólamente debe quedar un vértice. Esto es muy importante.</p>
+				<img class="centradoimagen" src="imagenes/iphone15.png"/>
+					<p>Aplicad un "extrude" sobre el vértice que ha quedado justo en el centro con los siguientes valores.</p>
+				<img class="centradoimagen" src="imagenes/iphone16.png"/>
+					<p>Ahora tenéis que borrar el vértice que ha quedado en el centro y las 8 aristas que lo atraviesan. Os recuerdo que tenéis que borrar utilizando la tecla de "Backspace" o "Retroceso" de vuestro teclado. No borréis con la tecla de "suprimir". Primero borráis las aristas y luego el vértice. Quedará de la siguiente forma.</p>
+				<img class="centradoimagen" src="imagenes/iphone17.png"/>
+					<p>Extruimos hacia el interior el polígono que ha quedado como resultado con un valor de -0,1cm.</p>
+				<img class="centradoimagen" src="imagenes/iphone18.png"/>
+					<p>Y realizamos un inset del polígono que extruimos en el paso anterior con un valor de 0,01cm.</p>
+				<img class="centradoimagen" src="imagenes/iphone19.png"/>
+					<p>Con el polígono que ha quedado en el centro, volvemos a realizar otro "extrude". En este caso hacia el exterior y con un valor de 0,17cm.</p>
+				<img class="centradoimagen" src="imagenes/iphone20.png"/>
+					<p>A continuación realizamos un "chamfer" sobre todos los bordes de nuestro botón. Tenéis que seleccionar las siguientes aristas y aplicar un valor de 0,006cm de "chamfer".</p>
+				<img class="centradoimagen" src="imagenes/iphone21.png"/>
+					<p>Sobre el polígono interior del botón, realizamos un "inset" de 0,045cm.</p>
+				<img class="centradoimagen" src="imagenes/iphone22.png"/>
+					<p>Con el comando "cut" realizamos un corte horizontal y otro vertical para que quede así.</p>
+				<img class="centradoimagen" src="imagenes/iphone23.png"/>
+					<p>Seleccionamos las aristas que se muestran a continuación.</p>
+				<img class="centradoimagen" src="imagenes/iphone24.png"/>
+					<p>Y realizamos un "connect" con estos valores.</p>
+				<img class="centradoimagen" src="imagenes/iphone25.png"/>
+					<p>Realizamos otro "connect" en el otro lado.</p>
+				<img class="centradoimagen" src="imagenes/iphone26.png"/>
+					<p>Con la herramienta de "select and uniform scale" alineamos los vértices que hemos creado.</p>
+				<img class="centradoimagen" src="imagenes/iphone27.png"/>
+					<p>Repetimos los pasos anteriores para realizar ahora los cortes necesarios para formar las líneas horizontales que compondrán el símbolo "+" de nuestro botón.</p>
+				<img class="centradoimagen" src="imagenes/iphone28.png"/>
+					<p>A continuación, con los polígonos que forman el símbolo "+", realizamos un "extrude" con un valor de -0,02cm.</p>
+				<img class="centradoimagen" src="imagenes/iphone29.png"/>
+					<p>Seleccionamos las siguientes aristas.</p>
+				<img class="centradoimagen" src="imagenes/iphone30.png"/>
+					<p>Y aplicamos un chamfer de 0,002 cm para que el modificador "turbosmooth" no se pase suavizando los cantos de l símbolo de subir volumen.</p>
+				<img class="centradoimagen" src="imagenes/iphone31.png"/>
+					<p>Podéis ir viendo el resultado que irá dando con el modificador "turbosmooth" aplicado.</p>
+				<img class="centradoimagen" src="imagenes/iphone32.png"/>
+					
+			<!--CONTENIDO-->
+		</div>
+	</body>
+</html>
+<div class="divinterrow"></div>

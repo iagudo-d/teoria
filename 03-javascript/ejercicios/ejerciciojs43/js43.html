@@ -1,0 +1,68 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 43</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 43 : Funciones matemáticas en JAVASCRIPT.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Sacar dos números aleatorios entre 0 y 10.
+						Redondear el primero hacia abajoy el segundo hacia arriba.
+						Calcular la resta del primero menos el segundo y mostrar el valor absoluto.
+						
+						Sacar dos numeros aleatorios entre 0 y 10 y no permitir que sean iguales.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+						/*
+						var numero1;
+						numero1 = Math.random()*10;
+						var numero2;
+						numero2 = Math.random()*10;
+						var n1r;
+						n1r = Math.ceil(numero1);
+						var n2r;
+						n2r = Math.floor(numero2);
+						var resta;
+						resta = (n1r-n2r);
+						var absolutoresta;
+						absolutoresta = Math.abs(resta);
+						alert("El número aleatorio 1 es: "+numero1+"\nEl número aleatorio 2 es: "+numero2+"\nEl número aleatorio 1 redondeado al alza es: "+n1r+"\nEl número aleatorio 2 redondeado a la baja es: "+n2r+"\nLa resta del número aleatorio 1 redondeado menos el número aleatorio 2 redondeado es: "+resta+"\nEl valor absoluto de la resta anterior es: "+absolutoresta)
+						*/
+						
+						var numero1;
+						numero1 = (Math.random()*10);
+						var numero2;
+						numero2 = (Math.random()*10);
+						var n1r;
+						n1r = Math.ceil(numero1);
+						var n2r;
+						n2r = Math.floor(numero2);          <!--HASTA AQUI ESTA BIEN
+						while (n2r == n1r);
+						{n2r = Math.floor(Math.random()*10);}
+						var resta;
+						resta = (n1r-n2r);
+						var absolutoresta;
+						absolutoresta = Math.abs(resta);
+						alert("El número aleatorio 1 es: "+numero1+"\nEl número aleatorio 2 es: "+numero2+"\nEl número aleatorio 1 redondeado al alza es: "+n1r+"\nEl número aleatorio 2 redondeado a la baja es: "+n2r+"\nLa resta del número aleatorio 1 redondeado menos el número aleatorio 2 redondeado es: "+resta+"\nEl valor absoluto de la resta anterior es: "+absolutoresta)/**/
+
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

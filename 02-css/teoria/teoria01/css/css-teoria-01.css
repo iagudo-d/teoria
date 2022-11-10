@@ -1,0 +1,24 @@
+﻿body{background-color:black;color:white;}
+a{text-decoration:none;}
+pre{width:;border-style:solid;border-width:1px;border-color:green;padding:10px;color:green;}
+
+/*menu*/
+#bajonavegador{width:100%;height:50px;background-color:;color:white;position:relative;top:0px;margin:0px auto;}
+#navegador{width:90%;height:50px;background-color:;color:white;position:fixed;top:0px;left:5%;margin:0px auto;display:table;}
+.centradotexto{width:100%;height:100%;background-color:grey;position:relative;display:table-cell;vertical-align:middle;text-align:center;border-radius:0px 0px 10px 10px;}
+a:hover .centradotexto{width:100%;height:100%;background-color:darkgrey;position:relative;display:table-cell;vertical-align:middle;text-align:center;border-radius:0px 0px 10px 10px;}
+.intermenu{width:2%;height:50px;background-color:;position:relative;float:left;}
+#returnmain{width:12%;height:50px;background-color:black;color:white;position:relative;float:left;display:table;}
+#returnhtmlteoria{width:12%;height:50px;background-color:black;color:white;position:relative;float:left;display:table;}
+#returnhtmlejercicios{width:12%;height:50px;background-color:black;color:white;position:relative;float:left;display:table;}
+#returncssteoria{width:12%;height:50px;background-color:black;color:white;position:relative;float:left;display:table;}
+#returncssejercicios{width:12%;height:50px;background-color:black;color:white;position:relative;float:left;display:table;}
+#returnjavateoria{width:12%;height:50px;background-color:black;color:white;position:relative;float:left;display:table;}
+#returnjavaejercicios{width:12%;height:50px;background-color:black;color:white;position:relative;float:left;display:table;}
+/*menu*/
+
+
+.azul{color:blue;}
+.rojo{color:red;}
+.verde{color:green;}
+.naranja{color:orange;}

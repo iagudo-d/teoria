@@ -1,0 +1,221 @@
+﻿<html>
+	<head>
+		<title>INDEX</title>
+	</head>
+	<body background="fondos\fondoindex.jpg" link="#106700" vlink="#106700">
+		<h1 align="center">EJERCICIO FORMULARIO 3: Creaci&oacute;n de campos de texto y desplegables</h1><br/>
+			<form action="envio.php" method="get" enctype="multipart/form-data">
+				<table width="50%" align="center">
+					<tr width="50%">
+						<td width="50%" align="left"><h1>Informaci&oacute;n sobre el producto</h1></td>
+					</tr>
+					<tr width="50%">
+						<td width="50%" align="left">
+							<fieldset>
+								<legend>Datos b&aacute;sicos</legend>
+									<table width="100%" align="center">
+										<tr width="100%">
+											<td width="100%" align="left">Nombre</td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left"><input type="text" size="75"/></td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left"></td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left">Descripci&oacute;n</td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left"><textarea cols="56" rows="5"></textarea></td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left">Foto<input type="file"/></td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left"><input type="checkbox" name=""/>Añadir al contador de visitas</td>
+										</tr>
+									</table>
+							</fieldset>
+						</td>
+					</tr>
+					<tr width="50%">
+						<td width="50%" align="left">
+							<fieldset>
+								<legend>Datos econ&oacute;micos</legend>
+									<table width="100%" align="center">
+										<tr width="100%">
+											<td width="10%" align="left">Precio</td>
+											<td width="20%" align="left"><input type="text" size="7"/>€</td>
+											<td width="10%" align="left">Impuestos</td>
+											<td width="20%" align="left">
+												<select name="impuestos">
+													<option value="">4%</option>
+													<option value="">7%</option>
+													<option value="">16%</option>
+													<option value="">25%</option>
+												</select>
+											</td>
+											<td width="40%" align="left"></td>
+										</tr>
+										
+										<tr width="100%">
+											<td width="100%" align="left" colspan="5">Promoción</td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left" colspan="5">
+												<input type="radio" name="promocion"/>Ninguno<br/>
+												<input type="radio" name="promocion"/>Transporte público<br/>
+												<input type="radio" name="promocion"/>Descuento 5%<br/>
+											</td>
+										</tr>
+									</table>
+							</fieldset>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<form action="envio.php" method="get">
+				<table width="50%" align="center">
+					<tr width="50%">
+						<td width="50%" align="left"><h1>Rellena tu CV</h1></td>
+					</tr>
+					<tr width="50%">
+						<td width="50%" align="left">
+							<fieldset>
+								<legend>Datos personales</legend>
+									<table width="100%" align="center">
+										<tr width="100%">
+											<td width="100%" align="left" colspan="6">Provincia</td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left" colspan="6">
+												<select name="provincia">
+													<option value="">Álava</option>
+													<option value="">Albacete</option>
+													<option value="">Alicante</option>
+													<option value="">Almería</option>
+													<option value="">Asturias</option>
+													<option value="">Ávila</option>
+													<option value="">Badajoz</option>
+													<option value="">Barcelona</option>
+													<option value="">Burgos</option>
+													<option value="">Cáceres</option>
+													<option value="">Cádiz</option>
+													<option value="">Cantabria</option>
+													<option value="">Castellón</option>
+													<option value="">Ciudad Real</option>
+													<option value="">Córdoba</option>
+													<option value="">La Coruña</option>
+													<option value="">Cuenca</option>
+													<option value="">Gerona</option>
+													<option value="">Granada</option>
+													<option value="">Guadalajara</option>
+													<option value="">Guipúzcoa</option>
+													<option value="">Huelva</option>
+													<option value="">Huesca</option>
+													<option value="">Islas Baleares</option>
+													<option value="">Jaén</option>
+													<option value="">León</option>
+													<option value="">Lérida</option>
+													<option value="">Lugo</option>
+													<option value="">Madrid</option>
+													<option value="">Málaga</option>
+													<option value="">Murcia</option>
+													<option value="">Navarra</option>
+													<option value="">Orense</option>
+													<option value="">Palencia</option>
+													<option value="">Las Palmas</option>
+													<option value="">Pontevedra</option>
+													<option value="">La Rioja</option>
+													<option value="">Salamanca</option>
+													<option value="">Segovia</option>
+													<option value="">Sevilla</option>
+													<option value="">Soria</option>
+													<option value="">Tarragona</option>
+													<option value="">Santa Cruz de Tenerife</option>
+													<option value="">Teruel</option>
+													<option value="">Toledo</option>
+													<option value="">Valencia</option>
+													<option value="">Valladolid</option>
+													<option value="">Vizcaya</option>
+													<option value="">Zamora</option>
+													<option value="">Zaragoza</option>
+												</select>
+											</td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left" colspan="6">Fecha de nacimiento</td>
+										</tr>
+										<tr width="100%">
+											<td width="10%" align="left">
+												<select name="dianac">
+													<option value="00"></option>
+													<option value="01">1</option>
+													<option value="02">2</option>
+													<option value="03">3</option>
+													<option value="04">4</option>
+													<option value="05">5</option>
+													<option value="06">6</option>
+													<option value="07">7</option>
+													<option value="08">8</option>
+													<option value="09">9</option>
+													<option value="10">10</option>
+													<option value="11">11</option>
+													<option value="12">12</option>
+													<option value="13">13</option>
+													<option value="14">14</option>
+													<option value="15">15</option>
+													<option value="16">16</option>
+													<option value="17">17</option>
+													<option value="18">18</option>
+													<option value="19">19</option>
+													<option value="20">20</option>
+													<option value="21">21</option>
+													<option value="22">22</option>
+													<option value="23">23</option>
+													<option value="24">24</option>
+													<option value="25">25</option>
+													<option value="26">26</option>
+													<option value="27">27</option>
+													<option value="28">28</option>
+													<option value="29">29</option>
+													<option value="30">30</option>
+													<option value="31">31</option>
+												</select>
+											</td>
+											<td width="5%" align="left">de</td>
+											<td width="20%" align="left">
+												<select name="mesnac">
+													<option value="00"></option>
+													<option value="01">Enero</option>
+													<option value="02">Febrero</option>
+													<option value="03">Marzo</option>
+													<option value="04">Abril</option>
+													<option value="05">Mayo</option>
+													<option value="06">Junio</option>
+													<option value="07">Julio</option>
+													<option value="08">Agosto</option>
+													<option value="09">Septiembre</option>
+													<option value="10">Octubre</option>
+													<option value="11">Noviembre</option>
+													<option value="12">Diciembre</option>
+												</select>
+											</td>
+											<td width="5%" align="left">de</td>
+											<td width="10%" align="left"><input type="text" size="4" maxlength="4"></td>
+											<td width="70%" align="left"></td>
+										</tr>
+										<tr width="100%">
+											<td width="100%" align="left" colspan="6">Temas de interés</td>
+										</tr>
+									</table>
+							</fieldset>
+						</td>
+					</tr>
+				</table>
+			</form>
+		<p align="center"><acronym title="Iván Agudo Díaz">IAD</acronym></p>	
+		<p align="center"><a href="index.html">INDEX</a></p>
+	</body>
+</html>

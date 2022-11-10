@@ -1,0 +1,62 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 10</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 10 : Anidación de el condicional IF con calculo de medias.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar tres notas, calcular las notas y decir si es MUY DEFICIENTE, INSUFICIENTE, SUFICIENTE, BIEN, NOTABLE, SOBRESALIENTE O MATRICULA DE HONOR.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+						var numero1;
+						numero1 = parseFloat(prompt("¿Dime un número?"));
+						var numero2;
+						numero2 = parseFloat(prompt("¿Dime otro número?"));
+						var numero3;
+						numero3 = parseFloat(prompt("¿Dime un tercer número?"));
+						var notamedia;
+						notamedia = parseFloat((numero1+numero2+numero3)/3);
+							
+						
+						if (notamedia<1)
+						{alert("MUY DEFICIENTE");}
+						else
+						{if (notamedia<5)
+						{alert("INSUFICIENTE");}
+						else
+						{if (notamedia<6)
+						{alert("SUFICIENTE");}
+						else
+						{if (notamedia<7)
+						{alert("BIEN");}
+						else
+						{if (notamedia<8)
+						{alert("NOTABLE");}
+						else
+						{if (notamedia<10)
+						{alert("SOBRESALIENTE");}
+						else
+						{alert("MATRICULA DE HONOR");}}}}}}
+						
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

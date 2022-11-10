@@ -1,0 +1,38 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 7</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 7 : Cuadros de dialogo con parseInt y parseFloat para calculo de media.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Solicitar al alumno dos notas y mostrar mediante un ALERT la nota media de las dos notas.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+						var nota1;
+						nota1 = prompt("¿Dime una nota?");
+						var nota2;
+						nota2 = prompt("¿Dime otra nota?");
+						var asignaturas;
+						asignaturas = prompt("¿Dime cuantas asignaturas tienes?");
+						alert("La nota media es "+ ((parseFloat(nota1)+parseFloat(nota2))/parseFloat(asignaturas)))
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

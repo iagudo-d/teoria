@@ -1,0 +1,29 @@
+﻿.lista1 #e1{list-style-type:disc;}
+.lista1 #e2{list-style-type:square;}
+.lista1 #e3{list-style-type:circle;}
+.lista1 #e4{list-style-type:armenian;}
+.lista1 #e5{list-style-type:upper-latin;}
+.lista2 #e1{list-style-image:URL(../imagenes/icos/redi/facebook.png);}
+.lista2 #e2{list-style-image:url(../imagenes/icos/redi/twitter.png);}
+.lista2 #e3{list-style-image:url(../imagenes/icos/redi/googleplus.png);}
+.lista2 #e4{list-style-image:url(../imagenes/icos/redi/foursquare.png);}
+.lista2 #e5{list-style-image:url(../imagenes/icos/redi/whatsapp.jpg);}
+.lista3 #e1{list-style-image:URL(../imagenes/icos/redi/facebook.png);}
+.lista3 #e2{list-style-image:url(../imagenes/icos/redi/twitter.png);}
+.lista3 #e3{list-style-image:url(../imagenes/icos/redi/googleplus.png);}
+.lista3 #e4{list-style-image:url(../imagenes/icos/redi/foursquare.png);}
+.lista3 #e5{list-style-image:url(../imagenes/icos/redi/whatsapp.jpg);}
+
+
+
+
+
+.lista4 #e1{list-style-image:URL(../imagenes/icos/redi/facebook.png);}
+.lista4 #e2{list-style-image:url(../imagenes/icos/redi/twitter.png);}
+.lista4 #e3{list-style-image:url(../imagenes/icos/redi/googleplus.png);}
+.lista4 #e4{list-style-image:url(../imagenes/icos/redi/foursquare.png);}
+.lista4 #e5{list-style-image:url(../imagenes/icos/redi/whatsapp.jpg);}
+
+
+
+.divcont{padding-left:15px;}

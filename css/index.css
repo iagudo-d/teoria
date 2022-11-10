@@ -1,0 +1,25 @@
+﻿body{background-color:black;font-family: 'Nothing You Could Do', cursive;}
+a{text-decoration:none;}
+a:hover .centradotexto{background-color:darkgrey;color:black;}
+
+
+#contenedor{width:100%;height:100%;background-color:;display:table;}
+#centrado{background-color:;display:table-cell;}
+#tabla{width:50%;height:50%;background-color:;position:relative;top:25%;left:25%;}
+#seccion{width:49%;height:100%;background-color:;position:relative;top:0%;left:0%;float:left;}
+#opcion{width:49%;height:100%;background-color:;position:relative;top:0%;left:0%;float:left;}
+
+.inter{width:100%;height:2%;background-color:;position:relative;top:0%;left:0%;}
+.interv{width:2%;height:100%;background-color:;position:relative;top:0%;left:0%;float:left;}
+.centradotexto{width:100%;height:2%;background-color:;position:relative;top:0%;left:0%;display:table-cell;vertical-align:middle;color:white;font-size:20;}
+
+#html{width:100%;height:32%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+#css{width:100%;height:32%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+#java{width:100%;height:32%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+
+#teoriahtml{width:100%;height:15%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+#ejercicioshtml{width:100%;height:15%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+#teoriacss{width:100%;height:15%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+#ejercicioscss{width:100%;height:15%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+#teoriajava{width:100%;height:15%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}
+#ejerciciosjava{width:100%;height:15%;background-color:grey;position:relative;top:0%;left:0%;display:table;text-align:center;}

@@ -1,0 +1,13 @@
+﻿body{background-image:url(../imagenes/fondoindex.jpg);}
+.div1{width:200px;height:200px;background-color:red;
+border-top:dotted orange 10px;
+border-right:dashed blue 15px;
+border-bottom:solid yellow 20px;
+border-left:ridge purple 25px}
+.div2{width:200px;height:200px;background-color:green;
+border-top:double red 10px;
+border-bottom:double red 10px;
+border-left:dotted blue 10px;
+border-right:dotted blue 10px;}
+.az{color:blue;}
+.rj{color:red;}

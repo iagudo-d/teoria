@@ -1,0 +1,43 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 29</title>
+
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 29 :  Uso del bucle FOR para hacer una tabla de multiplicar.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Haz la tabla de multiplicar de un número introducido por el usuario.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var tablade;
+						tablade = parseInt(prompt("Dime un numero"))
+						
+						var factormulti;
+						
+						document.write("<h1>LA TABLA DEL " + tablade + " es:<br/>")
+						for ( factormulti = 1 ; factormulti < 11 ; factormulti = factormulti + 1 )
+						{document.write(tablade + " X " + factormulti + " = " +(tablade*factormulti)+"<br/>");}
+						
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

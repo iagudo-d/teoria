@@ -1,0 +1,6 @@
+﻿.todo *{list-style-type:none;margin:0;padding:0;text-decoration:none;}
+.nav> li{float:left;}
+.nav li a{background-color:#0c9ba0;color:#ffffff;display:block;border:1px solid;padding:10px 12px;width:120px;text-align:center;}
+.nav li a:hover{background-color:#0fbfc6;}
+.nav li ul{display:none;}
+.nav li:hover>ul{display:block;}

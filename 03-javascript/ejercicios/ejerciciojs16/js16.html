@@ -1,0 +1,57 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 16</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 16 : Uso de varias condiciones.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar la ciudad, el sexo y edad.
+						Las mujeres de Madrid y mayores de 30 libran los viernes.
+						Los hombres o todos los mayores de 70 libran los sabados.
+						Las mujeres entre 18 y 25 libran los domingos.
+						El resto no libra.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+						var ciudad;
+						ciudad = prompt("¿De donde eres?");
+						ciudad = ciudad.toUpperCase();
+						var sexo;
+						sexo = prompt("¿Eres Hombre o Mujer?");
+						sexo = sexo.toUpperCase();
+						var edad;
+						edad = parseInt(prompt("¿Dime tu edad?"));
+
+												
+						if (ciudad == 'MADRID' && sexo == 'MUJER' && edad > 30)
+						{alert("Libras los viernes");}
+						else
+						{
+						if (sexo == 'HOMBRE' || edad > 70)
+						{alert("Libras los sabados");}
+						else
+						{if (sexo == 'MUJER' && edad >= 18 && edad =< 25)
+						{alert("Libras los domingos");}
+						else
+						{alert("Eres un jodido patán y no tienes derecho a librar!!!")}}}
+						/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

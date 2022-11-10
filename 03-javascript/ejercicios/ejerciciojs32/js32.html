@@ -1,0 +1,50 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 32</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 32 :  Uso del bucle WHILE combinado con condicional.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar alturas a 5 personas, si miden mas de 1,80 son altos y si no son normales con WHILE. 
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var altura;
+						var tiposaltos;
+						tiposaltos = 0
+						var tiposbajos;
+						tiposbajos = 0
+						var solicitudes;
+						solicitudes = 1
+						
+						while (solicitudes<6)
+						{altura = prompt("¿cuanto mides?");
+						if ( altura>1.80 )
+						{tiposaltos=tiposaltos+1}
+						else
+						{tiposbajos=tiposbajos+1};
+						solicitudes=solicitudes+1;}
+						
+						alert("El número de personas altas es: " + tiposaltos + "\nEl número de personas bajas es: " +tiposbajos)
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

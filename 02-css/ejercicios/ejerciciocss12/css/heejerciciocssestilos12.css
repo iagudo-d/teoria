@@ -1,0 +1,12 @@
+﻿body{background-image:url(../imagenes/fondoindex.jpg)}
+.p1{width:200px;height:50px;border-style:none;}
+.p2{width:200px;height:50px;border-style:hidden;}
+.p3{width:200px;height:50px;border-style:dotted;}
+.p4{width:200px;height:50px;border-style:dashed;}
+.p5{width:200px;height:50px;border-style:solid;}
+.p6{width:200px;height:50px;border-style:double;}
+.p7{width:200px;height:50px;border-style:groove;}
+.p8{width:200px;height:50px;border-style:ridge;}
+.p9{width:200px;height:50px;border-style:inset;}
+.p10{width:200px;height:50px;border-style:outset;}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10{background-color:lightblue;}

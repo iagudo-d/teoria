@@ -1,0 +1,52 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 33</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 33 :  Detener un bucle manualmente.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar alturas a 5 personas, si miden mas de 1,80 son altos y si no son normales con WHILE y hecer que pare cuando el usuario escriba FIN.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var altura;
+						var tiposaltos;
+						tiposaltos = 0
+						var tiposbajos;
+						tiposbajos = 0
+						var solicitudes;
+						solicitudes = 1
+						var fin;
+						
+						while (fin != "SI")
+						{altura = prompt("¿cuanto mides?");
+						if ( altura>1.80 )
+						{tiposaltos=tiposaltos+1}
+						else
+						{tiposbajos=tiposbajos+1};
+						fin = prompt ("Si has acabado de introducir datos escribe SI");
+						fin = fin.toUpperCase();}
+						
+						alert("El número de personas altas es: " + tiposaltos + "\nEl número de personas bajas es: " +tiposbajos)
+						
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

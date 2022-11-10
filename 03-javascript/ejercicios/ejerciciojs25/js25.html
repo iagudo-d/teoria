@@ -1,0 +1,54 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 25</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 25 : Anidar WHILE dentro de IF.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar el sexo, si es hombre mostrar los numero pares del 1 al 10 y si es mujer mostrar los impares del 1 al 10.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var sexo;
+						sexo = prompt("Dime si eres hombre o mujer");
+						sexo = sexo.toUpperCase();
+						var i;
+						i = 1
+						var p;
+						p = 2
+						
+						if (sexo == "HOMBRE")
+						{while ( p <= 10 )
+						{document.write(p+"</br>");
+						p=p+2;}}
+						else
+						{if (sexo == "MUJER")
+						{while ( i <= 10 )
+						{document.write(i+"</br>");
+						i=i+2;}}
+						else
+						{alert("O eres hermafrodita o no has escrito nada de lo que te pedí");}}
+						
+						
+							/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

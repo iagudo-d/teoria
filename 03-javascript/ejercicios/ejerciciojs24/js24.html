@@ -1,0 +1,41 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 24</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 24 :  Uso del bucle WHILE para hecer una tabla de multiplicar.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Haz la tabla de multiplicar de un número introducido por el usuario.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var numerobase;
+						numerobase = prompt("Dime un número entero del 1 al 10");
+						var i = 1
+						
+						document.write("<h1>Tabla del "+numerobase+ "</h1>");
+						while ( i <= 10 )
+						{ document.write( numerobase+" X " +i+ " = " +(numerobase*i)+ "<br/>");
+						i=i+1;}
+							/**/
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

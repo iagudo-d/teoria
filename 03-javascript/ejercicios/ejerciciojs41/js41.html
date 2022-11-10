@@ -1,0 +1,53 @@
+﻿<html>
+	<head>
+		<title>EJERCICIO JAVASCRIPT 23</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="titulo">
+				<h1 align="center">EJERCICIO JAVASCRIPT 23 :  Uso del bucle WHILE para hecer una tabla de multiplicar.</h1>
+			</div>
+			<div class="enunciado">
+				<h2 align="center">ENUNCIADO</h2>
+					<p align="center">
+						<!--enunciado-->
+						Preguntar la edad de una persona y que solo se admitan números.
+						Si es menor de 120 cm, estas en el equipo 1.
+						Entre 120 cm y 160 cm estas en el equipo 2.
+						Mas de 160 cm en el equipo 3.
+						<!--enunciado-->
+					</p>
+			</div>
+			<div class="resolucion">
+				<h2 align="center">RESOLUCIÓN</h2>
+					<!--resolucion-->
+					<script type="text/javascript">
+					
+						var estatura;
+						estatura = prompt("¿cual es tu estatura en centimetros, ejemplo 120?");
+						
+						while(isNaN(estatura))
+						
+						estatura = prompt("¿que parte no entendiste?¿cual es tu estatura en centimetros, ejemplo 120?");
+						
+						if (estatura<120)
+						{alert("Estas en el equipo 1")}
+						else
+						{if (estatura>=120 && estatura<=160)
+						{alert("Estas en el equipo 2")}
+						else
+						{if (estatura>160)
+						{alert("Estas en el equipo 3")}
+						else
+						{if (estatura.isNaN(estatura2=prompt("¿que parte no entendiste?¿cual es tu estatura en centimetros, ejemplo 120?")));
+						}}}
+					</script>
+					<!--resolucion-->
+			</div>
+			<div class="pie">		
+				<p align="center"><font color="ffffff"><acronym title="Iván Agudo Díaz">IAD</acronym></font></p>	
+				<p align="center"><a href="../../index.html">INDEX</a></p>
+			</div>
+		</div>
+	</body>
+</html>

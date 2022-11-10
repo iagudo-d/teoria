@@ -1,0 +1,11 @@
+﻿#contenedor{width:1000px;height:1800px;}
+#barralat{width:200px;height:1800px;float:left;}
+#uno{width:200px;height:400px;background-color:1100FF;position:relative;}
+#dos{width:200px;height:300px;background-color:7167FF;}
+#tres{width:200px;height:300px;background-color:green;position:relative;left:300px;}
+#cuatro{width:200px;height:800px;background-color:ADC6FF;}
+#contenido{width:800px;height:1800px;background-color:yellow;float:left;}
+#cinco{width:800px;height:1300px;background-color:FF0000;}
+#seis{width:800px;height:500px;background-color:FF9595;}
+.google{width:100px;position:fixed;top:50%;left:100%;margin:-269px -100px;}
+.ico{width:50px;height:50px;position:absolute;top:50%;left:50%;margin:-25px -25px;}

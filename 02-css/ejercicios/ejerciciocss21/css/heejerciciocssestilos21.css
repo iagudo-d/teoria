@@ -1,0 +1,15 @@
+﻿#contenedor{width:1000px;height:800px;background-color:black;}
+#cabecera{width:1000px;height:200px;background-color:red;float:left;}
+#uno{width:200px;height:200px;background-color:green;float:left;}
+#dos{width:800px;height:200px;background-color:pink;float:left;}
+#menu{width:1000px;height:100px;background-color:orange;float:left;}
+#m1{width:300px;height:100px;background-color:blue;float:left;}
+#m2{width:250px;height:100px;background-color:yellow;float:left;}
+#m3{width:250px;height:100px;background-color:blue;float:left;}
+#m4{width:200px;height:100px;background-color:yellow;float:left;}
+#botonera{width:180px;height:400px;background-color:pink;float:left;}
+#b1{width:180px;height:100px;background-color:white;float:left;}
+#b2{width:180px;height:300px;background-color:black;float:left;}
+#contenido{width:820px;height:400px;background-color:purple;float:left;}
+#pie{width:1000px;height:100px;background-color:red;float:left;}
+#banner{width:400px;height:100px;position:absolute;top:50%;left:50%;margin-top:-50px;margin-left:-200px;}

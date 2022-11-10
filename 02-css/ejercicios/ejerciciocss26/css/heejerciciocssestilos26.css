@@ -1,0 +1,31 @@
+﻿#contenedor{width:900px;height:675px;margin:10px auto;border:solid 1px;position:;}
+#uno{width:300px;height:225px;float:left;position:;}
+#dos{width:300px;height:225px;float:left;position:;}
+#tres{width:300px;height:225px;float:left;position:;}
+#cuatro{width:300px;height:225px;float:left;position:;}
+#cinco{width:300px;height:225px;float:left;position:;}
+#seis{width:300px;height:225px;float:left;position:;}
+#siete{width:300px;height:225px;float:left;position:;}
+#ocho{width:300px;height:225px;float:left;position:;}
+#vacio{width:300px;height:225px;float:left;position:;}
+.grande{width:300px;height:225px;}
+#tooptil1{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;background-color:white;color:red;}
+#tooptil2{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;}
+#tooptil3{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;}
+#tooptil4{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;}
+#tooptil5{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;}
+#tooptil6{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;}
+#tooptil7{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;}
+#tooptil8{width:300px;height:225px;position:absolute;top:400px;left:50%;margin:-108px -150px;z-index:1;}
+#tooptilvacio{width:300px;height:225px;position:relative;top:50%;left:50%;margin:-113px -150px;z-index:2;background-color:black;}
+#contenido{}
+#unoe:hover #tooptil1{z-index:10;}
+#dose:hover #tooptil2{z-index:3;}
+#trese:hover #tooptil3{z-index:3;}
+#cuatroe:hover #tooptil4{z-index:3;}
+#cincoe:hover #tooptil5{z-index:3;}
+#seise:hover #tooptil6{z-index:3;}
+#sietee:hover #tooptil7{z-index:3;}
+#ochoe:hover #tooptil8{z-index:3;}
+#nuevee:hover #tooptil9{z-index:3;}
+

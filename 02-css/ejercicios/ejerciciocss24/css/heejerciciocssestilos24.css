@@ -1,0 +1,27 @@
+﻿#uno{
+width:150px;
+height:300px;
+border-style:dotted double dashed ridge;
+border-color:red orange blue yellow;
+float:left;
+overflow:hidden;
+}
+#dos{
+width:150px;
+height:300px;
+margin:0px 25px 0px 25px;
+background-image:url(../imagenes/fond.jpg);
+background-repeat:repeat-y;
+float:left;
+overflow:auto;
+}
+#tres{
+width:150px;
+height:300px;
+border-style:solid;
+border-width:1px;
+float:left;
+overflow-x:hidden;
+overflow-y:scroll;
+}
+p.tres:first-letter{color:green;font-size:50px;}

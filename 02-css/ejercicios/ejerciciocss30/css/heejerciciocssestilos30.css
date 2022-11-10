@@ -1,0 +1,28 @@
+﻿.contenedor{width:1000px;margin:0px auto;border-style:solid solid solid solid;border-width:1px;}
+.titulo{margin:0px auto;border-style:solid solid solid solid;border-width:1px;}
+.enunciado{margin:0px auto;border-style:none solid solid solid;border-width:1px;}
+.resolucion{margin:0px auto;border-style:none solid solid solid;border-width:1px;}
+.pie{margin:0px auto;border-style:none solid solid solid;border-width:1px;}
+
+
+
+.divform1 label{width:80px;float:left;color:red;}
+.divform2 label{width:80px;float:left;color:blue;}
+div{padding:5px;}
+.boton{width:120px;}
+legend{padding:10px;font-family:;}
+fieldset{border-style:double;border-width:4px;margin:0 10 0 10;}
+.divform1{width:350px;float:left;}
+.divform2{width:350px;float:left;}
+#f1{color:red;width:320px;height:200px;}
+#f2{color:blue;width:320px;height:200px;}
+#ft{color:green;width:750px;height:320px;}
+#l1{color:pink}
+#l2{color:lightblue;}
+#lt{color:lime;}
+#f1 input{width:200px;background-color:pink;color:red;}
+#f2 input{width:200px;background-color:lightblue;color:blue;}
+#f1 input:focus{background-color:red;color:pink;}
+#f2 input:focus{background-color:blue;color:lightblue;}
+#ft>input{width:200px;background-color:lightgreen;color:green;}
+#ft input:focus{width:200px;background-color:green;color:red;}
